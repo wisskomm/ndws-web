@@ -1,0 +1,88 @@
+@import "_reset.scss";
+@import "_style.scss";
+
+@font-face {
+	font-family: system-ui;
+	font-style: normal;
+	font-weight: 300;
+	src: local(".SFNSText-Light"), 
+             local(".HelveticaNeueDeskInterface-Light"), 
+             local(".LucidaGrandeUI"), local("Segoe UI Light"), 
+             local("Ubuntu Light"), local("Roboto-Light"), 
+             local("DroidSans"), local("Tahoma");
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    background-image: linear-gradient(to bottom, #000000, #080002, #0f0002, #140002, #190002, #1e0102, #220102, #260201, #2b0301, #310301, #370201, #3d0000);
+    background-repeat: no-repeat;
+    font-family: system-ui, sans-serif;
+    position: absolute;
+    top: 80px;
+}
+
+.nav {
+    background-color: #FFF;
+    color: #000;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+
+    nav {
+        padding: 0 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 80px;
+
+        .nav-links {
+            list-style: none;
+            display: flex;
+            align-items: center;
+
+            a {
+                display: inline-block;
+                text-decoration: none;
+
+                li {
+                    margin: 0px 20px;
+                    color: #000;
+                    border-bottom: 1px solid transparent;
+
+                    &:hover, .active {
+                        border-color: inherit;
+                        padding: 5px 0px;
+                    }
+                }
+            }
+        }
+
+        .nav-left {
+            display: flex;
+
+            .header-logo {
+                margin-right: 20px;
+            }
+        }
+
+        .nav-right {
+
+        }
+    }
+}
+
+footer {
+    background-color: #fff;
+    border-top: 1px solid #d8d8d8;
+    bottom: 0;
+    color: #8a8a8a;
+    position: relative;
+    align-items: center;
+    width: 100%;
+    min-height: 200px;
+    z-index: 10;
+}
