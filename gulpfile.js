@@ -45,10 +45,12 @@ gulp.task(
     browserSync.init({
       server: {
         baseDir: "./dist"
-      }
+      },
+      open: "external"
     });
 
-    gulp.watch('src/style/*.scss', gulp.series('sass', 'typescript'));
+    gulp.watch('src/style/*.scss', gulp.series('sass'));
+    gulp.watch('src/typescript/*.ts', gulp.series('typescript'));
     gulp.watch('dist/index.html', gulp.series('sass', 'typescript'));
   })
 );

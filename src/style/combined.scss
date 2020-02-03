@@ -16,23 +16,9 @@ html {
 }
 
 body {
-  background-image: linear-gradient(
-    to bottom,
-    #000000,
-    #080002,
-    #0f0002,
-    #140002,
-    #190002,
-    #1e0102,
-    #220102,
-    #260201,
-    #2b0301,
-    #310301,
-    #370201,
-    #3d0000
-  );
-  background-repeat: no-repeat;
-  font-family: system-ui, sans-serif;
+  background-color: rgba(62, 62, 208, 1) !important;
+  background: rgba(0, 0, 0, 0) linear-gradient(to right, rgb(252, 70, 107), rgb(63, 94, 251)) repeat scroll 0% 0%;
+  font-family: system-ui, sans-serif;  
   position: absolute;
   top: 80px;
 }
@@ -47,4 +33,16 @@ footer {
   width: 100%;
   min-height: 200px;
   z-index: 10;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+
+  .column {
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+  }
 }

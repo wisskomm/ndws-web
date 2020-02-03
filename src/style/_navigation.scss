@@ -1,5 +1,7 @@
 .nav {
-  background-color: #fff;
+  transition: background-color .3s ease-in-out,border-color .3s ease-in-out;
+  
+  background-color: transparent;
   color: #000;
   position: fixed;
   top: 0;
@@ -13,6 +15,10 @@
     align-items: center;
     height: 80px;
 
+    .header-logo img {
+      filter: invert(1);
+    }
+
     .nav-links {
       list-style: none;
       display: flex;
@@ -24,7 +30,7 @@
 
         li {
           margin: 0px 20px;
-          color: #000;
+          color: #FFF;
           border-bottom: 1px solid transparent;
 
           &:hover,
@@ -43,5 +49,17 @@
         margin-right: 20px;
       }
     }
+  }
+}
+
+body.scroll .nav {
+  background-color: #fff;
+
+  .header-logo img {
+    filter: none;
+  }
+
+  a li {
+    color: #000;
   }
 }
