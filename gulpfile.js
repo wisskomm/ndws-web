@@ -6,8 +6,7 @@ const prettier = require('gulp-prettier');
 const cleanCSS = require('gulp-clean-css');
 const rename = require('gulp-rename');
 const browserSync = require('browser-sync').create();
-
-var ts = require('gulp-typescript');
+const ts = require('gulp-typescript');
 const tsProject = ts.createProject('tsconfig.json');
 
 gulp.task('typescript', function () {

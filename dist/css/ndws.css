@@ -181,10 +181,9 @@ footer {
   bottom: 0;
   color: #8a8a8a;
   position: relative;
-  -webkit-box-align: center;
-  align-items: center;
+  -webkit-box-align: start;
+  align-items: flex-start;
   width: 100%;
-  min-height: 200px;
   z-index: 10;
   display: -webkit-box;
   display: flex;
@@ -192,10 +191,11 @@ footer {
   -webkit-box-direction: normal;
   flex-direction: row;
   flex-wrap: wrap;
-  width: 100%;
+  padding: 10px 5px;
 }
 footer .column {
-  border: 1px solid red;
+  margin: 0 10px;
+  border: 0px solid red;
   display: -webkit-box;
   display: flex;
   -webkit-box-orient: vertical;
