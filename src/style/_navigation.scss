@@ -1,0 +1,47 @@
+.nav {
+  background-color: #fff;
+  color: #000;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+
+  nav {
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+
+    .nav-links {
+      list-style: none;
+      display: flex;
+      align-items: center;
+
+      a {
+        display: inline-block;
+        text-decoration: none;
+
+        li {
+          margin: 0px 20px;
+          color: #000;
+          border-bottom: 1px solid transparent;
+
+          &:hover,
+          .active {
+            border-color: inherit;
+            padding: 5px 0px;
+          }
+        }
+      }
+    }
+
+    .nav-left {
+      display: flex;
+
+      .header-logo {
+        margin-right: 20px;
+      }
+    }
+  }
+}
