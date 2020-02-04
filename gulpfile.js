@@ -19,7 +19,7 @@ gulp.task('sass', function(cb) {
   gulp
     // Process CSS File
     .src('src/style/combined.scss')
-    .pipe(sass())
+    .pipe(sass().on('error', sass.logError))
     .pipe(autoprefixer({
       cascade: false
     }))

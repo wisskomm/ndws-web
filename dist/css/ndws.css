@@ -137,6 +137,7 @@ select {
 
 body.scroll .nav {
   background-color: #fff;
+  border-bottom: 1px solid #bfbfbf;
 }
 body.scroll .nav .header-logo img {
   -webkit-filter: none;
@@ -144,35 +145,6 @@ body.scroll .nav .header-logo img {
 }
 body.scroll .nav a li {
   color: #000;
-}
-
-@font-face {
-  font-family: system-ui;
-  font-style: normal;
-  font-weight: 300;
-  src: local('.SFNSText-Light'), local('.HelveticaNeueDeskInterface-Light'),
-    local('.LucidaGrandeUI'), local('Segoe UI Light'), local('Ubuntu Light'),
-    local('Roboto-Light'), local('DroidSans'), local('Tahoma');
-}
-
-html {
-  height: 100%;
-}
-
-body {
-  background-color: #3e3ed0 !important;
-  background: rgba(0, 0, 0, 0) -webkit-gradient(
-      linear,
-      left top,
-      right top,
-      from(#fc466b),
-      to(#3f5efb)
-    ) repeat scroll 0% 0%;
-  background: rgba(0, 0, 0, 0) linear-gradient(to right, #fc466b, #3f5efb)
-    repeat scroll 0% 0%;
-  font-family: system-ui, sans-serif;
-  position: absolute;
-  top: 80px;
 }
 
 footer {
@@ -192,10 +164,11 @@ footer {
   flex-direction: row;
   flex-wrap: wrap;
   padding: 10px 5px;
+  min-height: 150px;
 }
 footer .column {
   margin: 0 10px;
-  border: 0px solid red;
+  border: 1px solid red;
   display: -webkit-box;
   display: flex;
   -webkit-box-orient: vertical;
@@ -204,4 +177,71 @@ footer .column {
   flex-basis: 100%;
   -webkit-box-flex: 1;
   flex: 1;
+}
+
+@font-face {
+  font-family: system-ui;
+  font-style: normal;
+  font-weight: 300;
+  src: local('.SFNSText-Light'), local('.HelveticaNeueDeskInterface-Light'),
+    local('.LucidaGrandeUI'), local('Segoe UI Light'), local('Ubuntu Light'),
+    local('Roboto-Light'), local('DroidSans'), local('Tahoma');
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  background-color: #fff !important;
+  background: rgba(0, 0, 0, 0) -webkit-gradient(
+      linear,
+      left top,
+      right top,
+      from(#fc466b),
+      to(#3f5efb)
+    ) repeat scroll 0% 0%;
+  background: rgba(0, 0, 0, 0) linear-gradient(to right, #fc466b, #3f5efb)
+    repeat scroll 0% 0%;
+  background-repeat: no-repeat;
+  font-family: system-ui, sans-serif;
+  position: absolute;
+  top: 80px;
+}
+
+#greeter {
+  color: #fff;
+  display: -webkit-box;
+  display: flex;
+  height: calc(100vh - 80px);
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  text-align: center;
+}
+#greeter h1 {
+  font-size: 8vw;
+}
+#greeter h2 {
+  font-size: 5vw;
+}
+#greeter h3 {
+  font-size: 2vw;
+}
+#greeter a {
+  color: #fff;
+}
+#greeter hr {
+  color: #fff;
+  width: 20%;
+  opacity: 0.3;
+}
+@media only screen and (max-width: 576px) {
+  #greeter h2 {
+    font-size: 6vw;
+  }
+  #greeter h3 {
+    font-size: 4vw;
+  }
 }

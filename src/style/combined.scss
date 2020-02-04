@@ -1,6 +1,14 @@
 @import "_reset.scss";
 @import "_navigation.scss";
 @import "_style.scss";
+@import "_footer.scss";
+
+$breakpoint-xs: 576px;
+$breakpoint-sm: 768px;
+$breakpoint-lg: 992px;
+$breakpoint-xl: 1200px;
+
+$greeter-color: #fff;
 
 @font-face {
   font-family: system-ui;
@@ -16,33 +24,53 @@ html {
 }
 
 body {
-  background-color: rgba(62, 62, 208, 1) !important;
-  background: rgba(0, 0, 0, 0) linear-gradient(to right, rgb(252, 70, 107), rgb(63, 94, 251)) repeat scroll 0% 0%;
-  font-family: system-ui, sans-serif;  
+  background-color: #fff !important;
+  background: rgba(0, 0, 0, 0)
+    linear-gradient(to right, rgb(252, 70, 107), rgb(63, 94, 251)) repeat scroll
+    0% 0%;
+  background-repeat: no-repeat;
+  font-family: system-ui, sans-serif;
   position: absolute;
   top: 80px;
 }
 
-footer {
-  background-color: #fff;
-  border-top: 1px solid #d8d8d8;
-  bottom: 0;
-  color: #8a8a8a;
-  position: relative;
-  align-items: flex-start;
-  width: 100%;
-  z-index: 10;
+#greeter {
+  color: $greeter-color;
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  padding: 10px 5px;
+  height: calc(100vh - 80px);
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 
-  .column {
-    margin: 0 10px;
-    border: 0px solid red;
-    display: flex;
-    flex-direction: column;
-    flex-basis: 100%;
-    flex: 1;
+  h1 {
+    font-size: 8vw;
+  }
+
+  h2 {
+    font-size: 5vw;
+  }
+
+  h3 {
+    font-size: 2vw;
+  }
+
+  a {
+    color: $greeter-color;
+  }
+
+  hr {
+    color: $greeter-color;
+    width: 20%;
+    opacity: 0.3;
+  }
+
+  @media only screen and (max-width: $breakpoint-xs) {
+    h2 {
+      font-size: 6vw;
+    }
+
+    h3 {
+      font-size: 4vw;
+    }
   }
 }
