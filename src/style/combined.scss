@@ -1,7 +1,4 @@
-@import "_reset.scss";
-@import "_navigation.scss";
-@import "_style.scss";
-@import "_footer.scss";
+$fa-font-path: "../font/webfonts";
 
 $breakpoint-xs: 576px;
 $breakpoint-sm: 768px;
@@ -9,6 +6,14 @@ $breakpoint-lg: 992px;
 $breakpoint-xl: 1200px;
 
 $greeter-color: #fff;
+
+@import "fontawesome/fontawesome.scss";
+@import "_reset.scss";
+@import "_navigation.scss";
+@import "_style.scss";
+@import "_footer.scss";
+
+
 
 @font-face {
   font-family: 'FiraSans';
