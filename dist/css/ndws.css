@@ -180,6 +180,27 @@ footer .column {
 }
 
 @font-face {
+  font-family: 'FiraSans';
+  src: url('../font/FiraSans-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'FiraSans';
+  src: url('../font/FiraSans-Light.ttf') format('truetype');
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'FiraSans';
+  src: url('../font/FiraSans-Medium.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
   font-family: system-ui;
   font-style: normal;
   font-weight: 300;
@@ -204,7 +225,7 @@ body {
   background: rgba(0, 0, 0, 0) linear-gradient(to right, #fc466b, #3f5efb)
     repeat scroll 0% 0%;
   background-repeat: no-repeat;
-  font-family: system-ui, sans-serif;
+  font-family: 'FiraSans', system-ui, sans-serif;
   position: absolute;
   top: 80px;
 }
@@ -213,6 +234,7 @@ body {
   color: #fff;
   display: -webkit-box;
   display: flex;
+  font-weight: lighter;
   height: calc(100vh - 80px);
   -webkit-box-align: center;
   align-items: center;
@@ -222,12 +244,15 @@ body {
 }
 #greeter h1 {
   font-size: 8vw;
+  font-weight: normal;
 }
 #greeter h2 {
   font-size: 5vw;
+  font-weight: lighter;
 }
 #greeter h3 {
   font-size: 2vw;
+  font-weight: lighter;
 }
 #greeter a {
   color: #fff;

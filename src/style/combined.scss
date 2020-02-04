@@ -11,6 +11,27 @@ $breakpoint-xl: 1200px;
 $greeter-color: #fff;
 
 @font-face {
+  font-family: 'FiraSans';
+  src: url('../font/FiraSans-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'FiraSans';
+  src: url('../font/FiraSans-Light.ttf') format('truetype');
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'FiraSans';
+  src: url('../font/FiraSans-Medium.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
   font-family: system-ui;
   font-style: normal;
   font-weight: 300;
@@ -29,7 +50,7 @@ body {
     linear-gradient(to right, rgb(252, 70, 107), rgb(63, 94, 251)) repeat scroll
     0% 0%;
   background-repeat: no-repeat;
-  font-family: system-ui, sans-serif;
+  font-family: 'FiraSans', system-ui, sans-serif;
   position: absolute;
   top: 80px;
 }
@@ -37,6 +58,7 @@ body {
 #greeter {
   color: $greeter-color;
   display: flex;
+  font-weight: lighter;
   height: calc(100vh - 80px);
   align-items: center;
   justify-content: center;
@@ -44,14 +66,17 @@ body {
 
   h1 {
     font-size: 8vw;
+    font-weight: normal;
   }
 
   h2 {
     font-size: 5vw;
+    font-weight: lighter;
   }
 
   h3 {
     font-size: 2vw;
+    font-weight: lighter;
   }
 
   a {
