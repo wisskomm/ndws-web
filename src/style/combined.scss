@@ -7,22 +7,22 @@
 @import "_footer.scss";
 
 @font-face {
-  font-family: 'FiraSans';
-  src: url('../font/FiraSans-Regular.ttf') format('truetype');
+  font-family: "FiraSans";
+  src: url("../font/FiraSans-Regular.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'FiraSans';
-  src: url('../font/FiraSans-Light.ttf') format('truetype');
+  font-family: "FiraSans";
+  src: url("../font/FiraSans-Light.ttf") format("truetype");
   font-weight: 200;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'FiraSans';
-  src: url('../font/FiraSans-Medium.ttf') format('truetype');
+  font-family: "FiraSans";
+  src: url("../font/FiraSans-Medium.ttf") format("truetype");
   font-weight: bold;
   font-style: normal;
 }
@@ -46,10 +46,52 @@ body {
     linear-gradient(to right, rgb(252, 70, 107), rgb(63, 94, 251)) repeat scroll
     0% 0%;
   background-repeat: no-repeat;
-  font-family: 'FiraSans', system-ui, sans-serif;
+  font-family: "FiraSans", system-ui, sans-serif;
   position: absolute;
   top: 80px;
   width: 100%;
+}
+
+a.btn {
+  color: #000 !important;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  line-height: 1.42857143;
+  font-size: 1em;
+  padding: 6px 12px;
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  touch-action: manipulation;
+  cursor: pointer;
+  user-select: none;
+  text-decoration: none;
+
+  &.btn-sm {
+    font-size: .8em;
+  }
+
+  &.btn-lg {
+    font-size: 1.5em;
+  }
+
+  &.btn-xl {
+    font-size: 2em;
+  }
+
+  &:hover {
+    color: #333 !important;
+    background-color: #e6e6e6;
+    border-color: #adadad;
+  }
+
+  &.btn-light {
+    color: #FFF !important;
+
+    &:hover {
+      color: #333 !important;
+    }
+  }
 }
 
 #greeter {
