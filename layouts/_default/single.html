@@ -1,11 +1,21 @@
 <!DOCTYPE html>
-<html>
-<head>
-  <title>{{ .Title }}</title>
-</head>
-<body>
-  <h1>{{ .Title }}</h1>
-  {{ .Content }}
-  asd
-</body>
+<html lang="de">
+  {{ partial "head.html" . }}
+  <body>
+    {{ partial "navigation.html" . }}
+    <div id="greeter">
+      <div>
+        <h1>Nacht der Wissenschaft<br />Siegen</h1>
+        <div style="padding: 5vh 0;">
+          <h2>15. Mai 2020 | ab 18 Uhr</h2>
+          <h2>Eintritt frei!</h2>
+        </div>
+        <h3><a href="">Alle Infos hier!</a></h3>
+      </div>
+    </div>
+    <div class="content">
+        {{ .Content }}
+    </div>
+    {{ partial "footer.html" . }}
+  </body>
 </html>
