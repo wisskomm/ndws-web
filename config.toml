@@ -1,0 +1,4 @@
+baseURL = "http://example.org/"
+languageCode = "de-DE"
+title = "Nacht der Wissenschaft Siegen"
+disableKinds = ["taxonomy", "taxonomyTerm"]
