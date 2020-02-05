@@ -6096,6 +6096,7 @@ body {
   font-family: 'FiraSans', system-ui, sans-serif;
   position: absolute;
   top: 80px;
+  width: 100%;
 }
 
 #greeter {
