@@ -1,6 +1,6 @@
 # ndws-web
 
-Demo: https://troogs.github.io/ndws-web/dist/
+Demo: https://troogs.github.io/ndws-web/
 
 ## Requirements:
 - node.js - [Download](https://nodejs.org/en/)

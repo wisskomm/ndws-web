@@ -1,4 +1,5 @@
-baseURL = "http://localhost:1313"
+baseURL = ""
 languageCode = "de-DE"
 title = "Nacht der Wissenschaft Siegen"
 disableKinds = ["taxonomy", "taxonomyTerm"]
+relativeURLs = true

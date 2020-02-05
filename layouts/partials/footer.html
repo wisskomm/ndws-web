@@ -10,8 +10,8 @@
     </p>
   </div>
   <div class="column">
-    <a href="{{ .Site.BaseURL }}impressum">Impressum</a>
-    <a href="{{ .Site.BaseURL }}privacy">Datenschutzerklärung</a>
+    <a href='{{ "about" | absURL }}'>Impressum</a>
+    <a href='{{ "privacy" | absURL }}'>Datenschutzerklärung</a>
   </div>
 </footer>
-<script src="{{ .Site.BaseURL }}js/ndws.js"></script>
+<script src='{{ "js/ndws.js" | absURL }}'></script>

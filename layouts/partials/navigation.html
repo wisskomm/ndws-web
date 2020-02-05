@@ -1,8 +1,8 @@
 <div class="nav">
     <nav>
       <div class="nav-left">
-        <a href="{{ .Site.BaseURL }}" class="header-logo">
-          <img src="{{ .Site.BaseURL }}/img/head.svg" width="50" height="50" />
+        <a href='{{ "" | absURL }}' class="header-logo">
+          <img src='{{ "img/head.svg" | absURL }}' width="50" height="50" />
         </a>
         <ul class="nav-links">
           <a href="#"><li>Programm</li></a>
@@ -11,7 +11,7 @@
       </div>
       <div class="nav-right">
         <ul class="nav-links">
-          <a href="{{ .Site.BaseURL }}contact"><li>Kontakt / Anfahrt</li></a>
+          <a href='{{ "contact" | absURL }}'><li>Kontakt / Anfahrt</li></a>
         </ul>
       </div>
     </nav>
