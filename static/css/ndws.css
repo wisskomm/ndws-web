@@ -5953,7 +5953,8 @@ select {
   -webkit-transition: background-color 0.3s ease-in-out,
     border-color 0.3s ease-in-out;
   transition: background-color 0.3s ease-in-out, border-color 0.3s ease-in-out;
-  background-color: transparent;
+  background-color: #fff;
+  border-bottom: 1px solid #bfbfbf;
   color: #000;
   position: fixed;
   top: 0;
@@ -5971,8 +5972,8 @@ select {
   height: 80px;
 }
 .nav nav .header-logo img {
-  -webkit-filter: invert(1);
-  filter: invert(1);
+  -webkit-filter: none;
+  filter: none;
 }
 .nav nav .nav-links {
   list-style: none;
@@ -5987,7 +5988,7 @@ select {
 }
 .nav nav .nav-links a li {
   margin: 0px 20px;
-  color: #fff;
+  color: #000;
   border-bottom: 1px solid transparent;
 }
 .nav nav .nav-links a li:hover,
@@ -6003,15 +6004,27 @@ select {
   margin-right: 20px;
 }
 
-body.scroll .nav {
+body.hero .nav {
+  background-color: transparent;
+  border-bottom: 1px solid transparent;
+}
+body.hero .nav .header-logo img {
+  -webkit-filter: invert(1);
+  filter: invert(1);
+}
+body.hero .nav a li {
+  color: #fff;
+}
+
+body.hero.scroll .nav {
   background-color: #fff;
   border-bottom: 1px solid #bfbfbf;
 }
-body.scroll .nav .header-logo img {
+body.hero.scroll .nav .header-logo img {
   -webkit-filter: none;
   filter: none;
 }
-body.scroll .nav a li {
+body.hero.scroll .nav a li {
   color: #000;
 }
 
@@ -6020,7 +6033,7 @@ footer {
   border-top: 1px solid #d8d8d8;
   bottom: 0;
   color: #8a8a8a;
-  position: relative;
+  position: absolute;
   -webkit-box-align: start;
   align-items: flex-start;
   width: 100%;
@@ -6032,11 +6045,12 @@ footer {
   flex-direction: row;
   flex-wrap: wrap;
   padding: 10px 5px;
-  min-height: 150px;
+  margin-top: 60px;
+  min-height: 250px;
 }
 footer .column {
   margin: 0 10px;
-  border: 1px solid red;
+  border: 0px solid red;
   display: -webkit-box;
   display: flex;
   -webkit-box-orient: vertical;
@@ -6083,20 +6097,14 @@ html {
 
 body {
   background-color: #fff !important;
-  background: rgba(0, 0, 0, 0) -webkit-gradient(
-      linear,
-      left top,
-      right top,
-      from(#fc466b),
-      to(#3f5efb)
-    ) repeat scroll 0% 0%;
-  background: rgba(0, 0, 0, 0) linear-gradient(to right, #fc466b, #3f5efb)
-    repeat scroll 0% 0%;
-  background-repeat: no-repeat;
   font-family: 'FiraSans', system-ui, sans-serif;
   position: absolute;
   top: 80px;
   width: 100%;
+}
+
+#content {
+  padding-bottom: 300px;
 }
 
 a.btn {
@@ -6138,7 +6146,20 @@ a.btn.btn-light:hover {
   color: #333 !important;
 }
 
-#greeter {
+body.hero {
+  background: rgba(0, 0, 0, 0) -webkit-gradient(
+      linear,
+      left top,
+      right top,
+      from(#fc466b),
+      to(#3f5efb)
+    ) repeat scroll 0% 0%;
+  background: rgba(0, 0, 0, 0) linear-gradient(to right, #fc466b, #3f5efb)
+    repeat scroll 0% 0%;
+  background-repeat: no-repeat;
+}
+
+#hero {
   color: #fff;
   display: -webkit-box;
   display: flex;
@@ -6150,31 +6171,31 @@ a.btn.btn-light:hover {
   justify-content: center;
   text-align: center;
 }
-#greeter h1 {
-  font-size: 8vw;
+#hero h1 {
+  font-size: 7vw;
   font-weight: normal;
 }
-#greeter h2 {
-  font-size: 5vw;
+#hero h2 {
+  font-size: 4vw;
   font-weight: lighter;
 }
-#greeter h3 {
+#hero h3 {
   font-size: 2vw;
   font-weight: lighter;
 }
-#greeter a {
+#hero a {
   color: #fff;
 }
-#greeter hr {
+#hero hr {
   color: #fff;
   width: 20%;
   opacity: 0.3;
 }
 @media only screen and (max-width: 576px) {
-  #greeter h2 {
+  #hero h2 {
     font-size: 6vw;
   }
-  #greeter h3 {
+  #hero h3 {
     font-size: 4vw;
   }
 }

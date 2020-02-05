@@ -42,14 +42,14 @@ html {
 
 body {
   background-color: #fff !important;
-  background: rgba(0, 0, 0, 0)
-    linear-gradient(to right, rgb(252, 70, 107), rgb(63, 94, 251)) repeat scroll
-    0% 0%;
-  background-repeat: no-repeat;
   font-family: "FiraSans", system-ui, sans-serif;
   position: absolute;
   top: 80px;
   width: 100%;
+}
+
+#content {
+  padding-bottom: 300px;
 }
 
 a.btn {
@@ -94,8 +94,15 @@ a.btn {
   }
 }
 
-#greeter {
-  color: $greeter-color;
+body.hero {
+  background: rgba(0, 0, 0, 0)
+    linear-gradient(to right, rgb(252, 70, 107), rgb(63, 94, 251)) repeat scroll
+    0% 0%;
+  background-repeat: no-repeat;
+}
+
+#hero {
+  color: $hero-color;
   display: flex;
   font-weight: lighter;
   height: calc(100vh - 80px);
@@ -104,12 +111,12 @@ a.btn {
   text-align: center;
 
   h1 {
-    font-size: 8vw;
+    font-size: 7vw;
     font-weight: normal;
   }
 
   h2 {
-    font-size: 5vw;
+    font-size: 4vw;
     font-weight: lighter;
   }
 
@@ -119,11 +126,11 @@ a.btn {
   }
 
   a {
-    color: $greeter-color;
+    color: $hero-color;
   }
 
   hr {
-    color: $greeter-color;
+    color: $hero-color;
     width: 20%;
     opacity: 0.3;
   }
