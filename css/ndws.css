@@ -6099,6 +6099,45 @@ body {
   width: 100%;
 }
 
+a.btn {
+  color: #000 !important;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  line-height: 1.42857143;
+  font-size: 1em;
+  padding: 6px 12px;
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  touch-action: manipulation;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  text-decoration: none;
+}
+a.btn.btn-sm {
+  font-size: 0.8em;
+}
+a.btn.btn-lg {
+  font-size: 1.5em;
+}
+a.btn.btn-xl {
+  font-size: 2em;
+}
+a.btn:hover {
+  color: #333 !important;
+  background-color: #e6e6e6;
+  border-color: #adadad;
+}
+a.btn.btn-light {
+  color: #fff !important;
+}
+a.btn.btn-light:hover {
+  color: #333 !important;
+}
+
 #greeter {
   color: #fff;
   display: -webkit-box;
