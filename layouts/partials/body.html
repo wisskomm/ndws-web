@@ -1,0 +1,10 @@
+<body {{ if .Params.ShowHero }}class="hero"{{ end }}>
+    {{ partial "navigation.html" . }}
+    {{ if .Params.ShowHero }}
+      {{ partial "hero.html" . }}
+    {{ end }}
+    <div id="content">
+        {{ .Content }}
+    </div>
+    {{ partial "footer.html" . }}
+  </body>
