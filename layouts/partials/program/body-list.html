@@ -4,29 +4,9 @@
     <h1>{{.Title}}</h1>
     <h2>Datum: {{ .Params.EventDate }}</h2>
     {{.Content}}
-    <ul>
-      {{ range .Sections }}
-        
-      <li><a href="{{.Permalink}}">{{.Title}}</a></li>
-      {{ end }}
-    </ul>
     <section class="cards">
       {{ range .Pages }}
         <li><a href="{{.Permalink}}">{{.Title}}</a></li>
-        {{ if (.Params.Name) (.Params.Origin) }}
-            <article class="card">
-                <div class="text-center">
-                {{.Params.Time}}
-                <h3>{{.Params.Name}}</h3>
-                ({{.Params.Origin}})
-                <div>
-                    <img src="{{.Params.Image}}" alt="{{.Title}}" />
-                </div>
-                </div>
-                <strong>{{.Title}}</strong>
-                {{.Content}}
-            </article>
-        {{ end }}
       {{ end }}
     </section>
   </div>

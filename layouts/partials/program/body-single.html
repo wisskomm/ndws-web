@@ -6,7 +6,8 @@
   <section class="cards">
   {{ range (readDir "content/talk") }}
     {{ with $.Site.GetPage .Name }}
-      {{ if and (.Params.Name) (.Params.Origin) (eq .Params.identifier $.Title ) }}
+      {{.Title }}
+      {{ if and (.Params.Name) (.Params.Origin) (eq .Params.relatedProgram $.Title ) }}
         <article class="card">
           <div class="text-center">
             {{.Params.Time}}
