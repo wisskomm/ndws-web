@@ -1,4 +1,5 @@
 +++
+votrag = "1"
 time = "18:00 Uhr"
 name = "Prof. Dr. Tester Testington"
 image = "http://placekitten.com/600/500"
