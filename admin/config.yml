@@ -25,6 +25,7 @@ collections:
   - name: "vortrag"
     label: "Vortrag"
     folder: "content/program"
+    slug: ""
     path: "{{year}}/{{slug}}"
     create: true
     fields:
@@ -42,16 +43,3 @@ collections:
           valueField: "title",
           searchFields: ["title"],
         }
-  - name: "kitchenSink" # all the things in one entry, for documentation and quick testing
-    label: "Kitchen Sink"
-    folder: "content/sink"
-    identifier_field: name
-    create: true
-    fields: 
-      - {label: "Name", name: "name", widget: "string"}
-      - label: "Object"
-        name: "object"
-        widget: "object"
-        identifier_field: name
-        fields:
-          - {label: "Name", name: "name", widget: "string"}
