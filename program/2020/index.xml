@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Nacht der Wissenschaft 2020 (Demo) on Nacht der Wissenschaft Siegen</title>
+    <title>Programm 2020 (Demo) on Nacht der Wissenschaft Siegen</title>
     <link>https://troogs.github.io/ndws-web/program/2020/</link>
-    <description>Recent content in Nacht der Wissenschaft 2020 (Demo) on Nacht der Wissenschaft Siegen</description>
+    <description>Recent content in Programm 2020 (Demo) on Nacht der Wissenschaft Siegen</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>de-DE</language>
     
@@ -34,6 +34,15 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://troogs.github.io/ndws-web/program/2020/doktortest-copy-4/</guid>
+      <description>Ein Student hat keine Lust auf eine Routinetätigkeit und „mogelt“ sich durch. Ein Steuerzahler erfindet einige Rechnungen, für die keine Leistungen erbracht wurden. Es gibt viele Arten von Betrug und häufig wird der Betrüger ungeschoren davon kommen. In meinem Vortrag werde ich aufzeigen wie die Stochastik helfen kann in den oben genannten Beispielen den „Täter“ zu überführen. Dabei greifen die Wahrscheinlichkeitstheorie (Modellbildung) und die mathematische Statistik auf exemplarische Weise ineinander. Im ersten Fall führt der sogenannte Run-Test zum Erfolg; im zweiten Fall hilft die Benford-Verteilung.</description>
+    </item>
+    
+    <item>
+      <title>Gegen stochastische Methoden haben Betrüger (fast) keine Chance</title>
+      <link>https://troogs.github.io/ndws-web/program/2020/doktortest-copy-5/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://troogs.github.io/ndws-web/program/2020/doktortest-copy-5/</guid>
       <description>Ein Student hat keine Lust auf eine Routinetätigkeit und „mogelt“ sich durch. Ein Steuerzahler erfindet einige Rechnungen, für die keine Leistungen erbracht wurden. Es gibt viele Arten von Betrug und häufig wird der Betrüger ungeschoren davon kommen. In meinem Vortrag werde ich aufzeigen wie die Stochastik helfen kann in den oben genannten Beispielen den „Täter“ zu überführen. Dabei greifen die Wahrscheinlichkeitstheorie (Modellbildung) und die mathematische Statistik auf exemplarische Weise ineinander. Im ersten Fall führt der sogenannte Run-Test zum Erfolg; im zweiten Fall hilft die Benford-Verteilung.</description>
     </item>
     
