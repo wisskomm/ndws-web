@@ -13,6 +13,10 @@
   </url>
   
   <url>
+    <loc>https://troogs.github.io/ndws-web/sink/outer/</loc>
+  </url>
+  
+  <url>
     <loc>https://troogs.github.io/ndws-web/program/2020/doktortest-copy-2/</loc>
   </url>
   
@@ -58,6 +62,10 @@
   
   <url>
     <loc>https://troogs.github.io/ndws-web/program/</loc>
+  </url>
+  
+  <url>
+    <loc>https://troogs.github.io/ndws-web/sink/</loc>
   </url>
   
 </urlset>
