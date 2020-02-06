@@ -6061,6 +6061,35 @@ footer .column {
   flex: 1;
 }
 
+.cards {
+  display: -webkit-box;
+  display: flex;
+  flex-wrap: wrap;
+}
+.cards .card {
+  -webkit-box-flex: 1;
+  flex: 1 0 400px;
+  box-sizing: border-box;
+  margin: 1rem 0.25em;
+  border: 1px solid #dfdfdf;
+  padding: 10px;
+}
+@media screen and (max-width: 576px) {
+  .cards .card {
+    -webkit-box-flex: 1;
+    flex: 1 0 280px;
+    padding: 0;
+    border-width: 0;
+    padding-bottom: 15px;
+    border-bottom-width: 1px;
+  }
+}
+.cards .card img {
+  max-width: 100%;
+  max-height: 350px;
+  display: inline;
+}
+
 @font-face {
   font-family: 'FiraSans';
   src: url('../font/FiraSans-Regular.ttf') format('truetype');
@@ -6104,7 +6133,20 @@ body {
 }
 
 #content {
+  padding: 50px;
+  width: 100%;
+  max-width: 1440px;
+  margin: auto;
   padding-bottom: 300px;
+}
+@media screen and (max-width: 576px) {
+  #content {
+    padding: 20px;
+  }
+}
+
+.text-center {
+  text-align: center;
 }
 
 a.btn {
