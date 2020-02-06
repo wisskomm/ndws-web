@@ -1,0 +1,57 @@
+backend:
+  name: github
+  repo: TroogS/ndws-web
+  branch: master # Branch to update (optional; defaults to master)
+media_folder: "static/img/uploads" # Media files will be stored in the repo under images/uploads
+public_folder: "/img/uploads" # The src attribute for uploaded media will begin with /images/uploads
+collections:
+  - name: "single" # Used in routes, e.g., /admin/collections/blog
+    label: "Single Page" # Used in the UI
+    folder: "content" # The path to the folder where the documents are stored
+    create: false # Allow users to create new documents in this collection
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Date", name: "date", widget: "datetime" }
+      - { label: "Body", name: "body", widget: "markdown" }
+  - name: "program"
+    label: "Programm"
+    folder: "content/program"
+    create: false
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Date", name: "EventDate", widget: "datetime" }
+      - { label: "Body", name: "body", widget: "markdown" }
+  - name: "vortrag"
+    label: "Vortrag"
+    folder: "content/program"
+    path: "{{year}}/{{slug}}"
+    create: true
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Origin", name: "origin", widget: "string" }
+      - { label: "Time", name: "time", widget: "string" }
+      - { label: "Image", name: "image", widget: "string" }
+      - { label: "Name", name: "name", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }
+      - {
+          label: "Programm",
+          name: "program",
+          widget: "relation",
+          collection: "program",
+          valueField: "title",
+          searchFields: ["title"],
+        }
+  - name: "kitchenSink" # all the things in one entry, for documentation and quick testing
+    label: "Kitchen Sink"
+    folder: "content/sink"
+    identifier_field: name
+    create: true
+    fields: 
+      - {label: "Name", name: "name", widget: "string"}
+      - label: "Object"
+        name: "object"
+        widget: "object"
+        identifier_field: name
+        fields:
+          - {label: "Name", name: "name", widget: "string"}
