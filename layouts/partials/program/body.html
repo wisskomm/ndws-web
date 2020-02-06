@@ -2,6 +2,7 @@
   {{ partial "navigation.html" . }}
   <div id="content">
     <h1>{{.Title}}</h1>
+    <h2>Datum: {{ .Params.EventDate }}</h2>
     {{.Content}}
     <ul>
       {{ range .Sections }}
@@ -9,19 +10,21 @@
       {{ end }}
     </ul>
     <section class="cards">
-      {{ range .Pages }}
-      <article class="card">
-        <div class="text-center">
-          {{.Params.Time}}
-          <h3>{{.Params.Name}}</h3>
-          ({{.Params.Origin}})
-          <div>
-            <img src="{{.Params.Image}}" alt="{{.Title}}" />
-          </div>
-        </div>
-        <strong>{{.Title}}</strong>
-        {{.Content}}
-      </article>
+      {{ range (.Pages.ByParam "time") }}
+        {{ if (.Params.Name) (.Params.Origin) }}
+            <article class="card">
+                <div class="text-center">
+                {{.Params.Time}}
+                <h3>{{.Params.Name}}</h3>
+                ({{.Params.Origin}})
+                <div>
+                    <img src="{{.Params.Image}}" alt="{{.Title}}" />
+                </div>
+                </div>
+                <strong>{{.Title}}</strong>
+                {{.Content}}
+            </article>
+        {{ end }}
       {{ end }}
     </section>
   </div>

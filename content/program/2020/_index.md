@@ -1,5 +1,5 @@
 +++
-title = "Nacht der Wissenschaft 2020 (Demo)"
+title = "Programm 2020 (Demo)"
 EventDate = "2020-05-15"
 +++
 

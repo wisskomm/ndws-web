@@ -1,5 +1,5 @@
 +++
-time = "18:30 Uhr"
+time = "20:30 Uhr"
 name = "Prof. Dr. Tester Testington"
 image = "http://placekitten.com/600/500"
 origin = "Stochastik"

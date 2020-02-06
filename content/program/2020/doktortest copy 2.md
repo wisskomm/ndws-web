@@ -1,8 +1,8 @@
 +++
-time = "18:30 Uhr"
+time = "18:00 Uhr"
 name = "Prof. Dr. Tester Testington"
 image = "http://placekitten.com/600/500"
-origin = "Stochastik"
+origin = "Meeresbiologie"
 title = "Gegen stochastische Methoden haben Betrüger (fast) keine Chance"
 +++
 
