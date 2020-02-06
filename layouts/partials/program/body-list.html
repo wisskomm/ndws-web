@@ -6,11 +6,13 @@
     {{.Content}}
     <ul>
       {{ range .Sections }}
+        
       <li><a href="{{.Permalink}}">{{.Title}}</a></li>
       {{ end }}
     </ul>
     <section class="cards">
-      {{ range (.Pages.ByParam "time") }}
+      {{ range .Pages }}
+        <li><a href="{{.Permalink}}">{{.Title}}</a></li>
         {{ if (.Params.Name) (.Params.Origin) }}
             <article class="card">
                 <div class="text-center">

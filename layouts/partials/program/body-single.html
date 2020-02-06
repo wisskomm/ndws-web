@@ -1,0 +1,29 @@
+<body>
+{{ partial "navigation.html" . }}
+<div id="content">
+  <h1>{{.Title}}</h1>
+
+  <section class="cards">
+  {{ range (readDir "content/talk") }}
+    {{ with $.Site.GetPage .Name }}
+      {{ if and (.Params.Name) (.Params.Origin) (eq .Params.identifier $.Title ) }}
+        <article class="card">
+          <div class="text-center">
+            {{.Params.Time}}
+            <h3>{{.Params.Name}}</h3>
+            ({{.Params.Origin}})
+            <div>
+              <img src="{{.Params.Image}}" alt="{{.Title}}" />
+            </div>
+          </div>
+          <strong>{{.Title}}</strong>
+          {{.Content}}
+        </article>
+      {{ end }}
+    {{ end }}
+  {{ end }}
+</section>
+
+</div>
+{{ partial "footer.html" . }}
+</body>
