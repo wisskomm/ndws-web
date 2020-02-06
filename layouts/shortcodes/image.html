@@ -1,0 +1,39 @@
+<!-- Automatic resizing for HiDPI/retina images -->
+<!-- https://gohugo.io/content-management/image-processing/ -->
+
+{{- $original := .Page.Resources.GetMatch (.Get "src") -}}
+{{- .Scratch.Set "image" $original -}}
+
+{{- $maxWidth := 910 -}}
+
+{{- if .Get "width" }}
+  {{- $inputWidth := (int (.Get "width")) -}}
+  {{- $retinaWidth := (mul $inputWidth 2) -}}
+
+  {{- if gt $original.Width $retinaWidth -}}
+    {{- $finalWidth := (printf "%dx" $retinaWidth) -}}
+    {{- .Scratch.Set "image" ($original.Resize $finalWidth) -}}
+  {{- end -}}
+{{- else -}}
+  {{- $inputWidth := $maxWidth -}}
+  {{- if gt $original.Width 1820 -}}
+    {{- .Scratch.Set "image" ($original.Resize "1820x") -}}
+  {{- end -}}
+{{- end -}}
+
+{{- $image := .Scratch.Get "image" -}}
+
+{{- if .Get "caption" -}}
+<figure>
+  <picture>
+{{- else -}}
+<p>
+{{- end -}}
+<img src="{{ $image.Permalink }}"{{ if .Get "alt" }} alt="{{ .Get "alt" }}"{{ end }}{{ if .Get "width" }} width="{{ .Get "width" }}"{{ end }}{{ if .Get "caption" }} title="{{ .Get "caption"}}"{{ end }}>
+{{- if .Get "caption" -}}
+  </picture>
+  <figcaption>{{ .Get "caption" }}</figcaption>
+</figure>
+{{- else -}}
+</p>
+{{- end -}}

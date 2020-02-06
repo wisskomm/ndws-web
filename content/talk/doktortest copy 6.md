@@ -2,7 +2,7 @@
 relatedProgram = "Programm 2020"
 time = "18:32 Uhr"
 name = "Prof. Dr. Tester Testington"
-image = "http://placekitten.com/600/500"
+image = "http://placekitten.com/3000/3000"
 origin = "Stochastik"
 title = "Gegen stochastische Methoden haben Betrüger (fast) keine Chance"
 +++

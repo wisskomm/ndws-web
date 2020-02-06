@@ -3,3 +3,4 @@ languageCode = "de-DE"
 title = "Nacht der Wissenschaft Siegen"
 disableKinds = ["taxonomy", "taxonomyTerm"]
 relativeURLs = true
+enableInlineShortcodes = true
