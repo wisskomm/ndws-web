@@ -8,7 +8,13 @@
   {{ range (readDir "content/talk") }}
     {{ with $.Site.GetPage .Name }}
       {{ if and (.Params.Name) (.Params.Origin) (eq .Params.relatedProgram $.Title ) }}
-        <article class="card" style='order: {{ replaceRE "[^\\d]" "" .Params.Time }};'>
+
+        {{ .Scratch.Set "orderNum" (replaceRE "[^\\d]" "" .Params.Time)}}
+        {{ .Scratch.Set "orderNum" (replaceRE "^0{3}" "1111" (.Scratch.Get "orderNum")) }}
+        {{ .Scratch.Set "orderNum" (replaceRE "^0{2}" "111" (.Scratch.Get "orderNum")) }}
+        {{ .Scratch.Set "orderNum" (replaceRE "^0" "11" (.Scratch.Get "orderNum")) }}
+        
+        <article class="card" style='order: {{ .Scratch.Get "orderNum" }};'>
           <div class="text-center">
             {{.Params.Time}}
             <h3>{{.Params.Name}}</h3>
