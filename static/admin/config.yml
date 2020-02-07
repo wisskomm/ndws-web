@@ -41,9 +41,9 @@ collections:
           searchFields: ["title"],
         }
       - { label: "Titel", name: "title", widget: "string" }
-      - { label: "Vortragender", name: "name", widget: "string" }
+      - { label: "Vortragende Person", name: "name", widget: "string" }
       - { label: "Herkunft / Feld", name: "origin", widget: "string" }
-      - { label: "Zeit", name: "time", widget: "string" }
+      - { label: "Zeit", name: "time", widget: "string", hint: "Die Zeit wird für die Sortierung in der Programmübersicht verwendet" }
       - { label: "Image", name: "image", widget: "image", required: false }
       - { label: "Body", name: "body", widget: "markdown" }
       
