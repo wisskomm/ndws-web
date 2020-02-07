@@ -6,7 +6,7 @@ title: >-
 name: Dr. Michael Hauschild
 origin: CERN
 time: '21:40 Uhr'
-image: /img/uploads/MichaelHauschild.jpg
+image: /media/MichaelHauschild.jpg
 ---
 Grundlagenforschung ist ein elementares Kulturgut des Menschen und befriedigt die menschliche Neugier und den Drang, etwas Neues, Unbekanntes hinter dem bekannten Horizont zu finden und die tieferen Zusammenhänge der Natur zu begreifen.\
 Produkte der Grundlagenforschung sind Wissen und Erkenntnis. Auf dieser Wissensbasis baut die angewandte Forschung auf und ermöglicht uns technologische Fortschritte, ohne die unsere heutige Welt nicht mehr vorstellbar wäre.\

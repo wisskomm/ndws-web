@@ -1,0 +1,10 @@
+{{ with .page }}
+    {{ $resources := .Resources.ByType "image"}}
+    {{ range $resources }}
+    {{ with . }}
+        {{ if eq $.imgPath .RelPermalink }}
+            <img src='{{ (.Resize "500x").RelPermalink }}' />
+        {{ end }}
+    {{ end }}
+    {{ end }}
+{{ end }}

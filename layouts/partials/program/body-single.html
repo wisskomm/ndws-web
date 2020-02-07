@@ -1,5 +1,6 @@
 <body>
 {{ partial "navigation.html" . }}
+
 <div id="content">
   <h1>{{.Title}}</h1>
   {{ dateFormat "02. January 2006" .Params.EventDate }}
@@ -8,19 +9,20 @@
   {{ range (readDir "content/talk") }}
     {{ with $.Site.GetPage .Name }}
       {{ if and (.Params.Name) (.Params.Origin) (eq .Params.relatedProgram $.Title ) }}
-
-        {{ .Scratch.Set "orderNum" (replaceRE "[^\\d]" "" .Params.Time)}}
-        {{ .Scratch.Set "orderNum" (replaceRE "^0{3}" "1111" (.Scratch.Get "orderNum")) }}
-        {{ .Scratch.Set "orderNum" (replaceRE "^0{2}" "111" (.Scratch.Get "orderNum")) }}
-        {{ .Scratch.Set "orderNum" (replaceRE "^0" "11" (.Scratch.Get "orderNum")) }}
-        
-        <article class="card" style='order: {{ .Scratch.Get "orderNum" }};'>
+        {{ $styleAttrib := (replaceRE "[^\\d]" "" .Params.Time) }}
+        {{ $styleAttrib := (replaceRE "^0{3}" "1111" $styleAttrib) }}
+        {{ $styleAttrib := (replaceRE "^0{2}" "111" $styleAttrib) }}
+        {{ $styleAttrib := (replaceRE "^0" "11" $styleAttrib) }}
+        {{ $styleAttrib := (replaceRE "^" "style='order:" $styleAttrib) }}
+        {{ $styleAttrib := (replaceRE "$" ";'" $styleAttrib) }}
+        <article class="card" {{ $styleAttrib | safeHTMLAttr }}>
+          
           <div class="text-center">
             {{.Params.Time}}
             <h3>{{.Params.Name}}</h3>
             ({{.Params.Origin}})
             <div>
-              <img src="{{.Params.Image}}" alt="{{.Title}}" />
+              {{ partial "resize-image.html" (dict "imgPath" .Params.Image "page" (.Site.GetPage "section" "/media")) }}
             </div>
           </div>
           <strong>{{.Title}}</strong>
