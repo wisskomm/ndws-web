@@ -20,7 +20,7 @@ jobs:
       run: hugo --gc --cleanDestinationDir --baseURL https://troogs.github.io/ndws-web/ -v
     
     - name: Check dir
-      run: ls public
+      run: ls public/media
 
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v2.4.0
