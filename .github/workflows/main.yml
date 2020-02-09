@@ -17,7 +17,10 @@ jobs:
         hugo-version: 'latest'
 
     - name: Build
-      run: hugo --gc --cleanDestinationDir --baseURL https://troogs.github.io/ndws-web/
+      run: hugo --gc --cleanDestinationDir --baseURL https://troogs.github.io/ndws-web/ -v
+    
+    - name: Check dir
+      run: ls public
 
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v2.4.0
