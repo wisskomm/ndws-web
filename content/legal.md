@@ -1,18 +1,60 @@
 +++
 title = "Impressum"
-date = "05.02.2020"
+date = "20.02.2020"
 +++
 
 # Impressum
 
-## Betreiber
+## Angaben gem&auml;&szlig; &sect; 5 TMG
+<p>
+Studentische Initiative f&uuml;r Wissenschaftskommunikation<br />
+H&ouml;lderlinstra&szlig;e 35<br />
+57076 Siegen
+</p>
 
-Utopiastadt gemeinnützige GmbH
-vertreten durch Christin Hampe, Beate Barbara Blaschczok
-UTOPIASTADT (Bahnhof Mirke – km 13,6 Nordbahntrasse)
-Mirker Str. 48 | 42105 Wuppertal | 0202 39 34 86 57
-info@utopiastadt.eu | www.utopiastadt.eu
-Handelsregister: Amtsgericht Wuppertal HRB 26829
-Umsatzsteueridentifikationsnummer nach § 27a des Umsatzsteuergesetzes oder Wirtschaftsidentifikationsnummer nach § 139c der Abgabenordnung: DE303 67 46 06
-##Hinweis:
-Die EU-Kommission bietet die Möglichkeit zur Online-Streitbeilegung auf einer von ihr betriebenen Online-Plattform. Diese Plattform ist über den externen Link http://ec.europa.eu/consumers/odr/ zu erreichen. Zu einer Teilnahme an einem Schlichtungsverfahren sind wir nicht verpflichtet und können die Teilnahme an einem solchen Verfahren auch nicht anbieten.
+<p><br />
+
+**Kontakt:** <br />
+Telefon: 0271/740-4600 (AStA der Universität Siegen<br />
+E-Mail: info@ndws.de<br />
+</p>
+
+<p><br />
+
+**Verantwortlich für den Inhalt (nach § 55 Abs. 2 RStV):** <br />
+Andre Beging<br />
+Weidenauer Stra&szlig;e 263A<br />
+57076 Siegen<br />
+E-Mail: andre.beging@uni-siegen.de
+</p>
+
+<p><br />
+
+**Realisierung** <br />
+Beging.IT<br />
+Weidenauer Stra&szlig;e 263A<br />
+57076 Siegen<br />
+E-Mail: kontakt@beging.it
+</p>
+
+
+## Verbraucher&shy;streit&shy;beilegung/Universal&shy;schlichtungs&shy;stelle
+
+Wir sind nicht bereit oder verpflichtet, an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen.
+
+### Haftung f&uuml;r Inhalte
+
+
+Als Diensteanbieter sind wir gem&auml;&szlig; &sect; 7 Abs.1 TMG f&uuml;r eigene Inhalte auf diesen Seiten nach den allgemeinen Gesetzen verantwortlich. Nach &sect;&sect; 8 bis 10 TMG sind wir als Diensteanbieter jedoch nicht verpflichtet, &uuml;bermittelte oder gespeicherte fremde Informationen zu &uuml;berwachen oder nach Umst&auml;nden zu forschen, die auf eine rechtswidrige T&auml;tigkeit hinweisen.\
+Verpflichtungen zur Entfernung oder Sperrung der Nutzung von Informationen nach den allgemeinen Gesetzen bleiben hiervon unber&uuml;hrt. Eine diesbez&uuml;gliche Haftung ist jedoch erst ab dem Zeitpunkt der Kenntnis einer konkreten Rechtsverletzung m&ouml;glich. Bei Bekanntwerden von entsprechenden Rechtsverletzungen werden wir diese Inhalte umgehend entfernen.
+
+### Haftung f&uuml;r Links
+Unser Angebot enth&auml;lt Links zu externen Websites Dritter, auf deren Inhalte wir keinen Einfluss haben. Deshalb k&ouml;nnen wir f&uuml;r diese fremden Inhalte auch keine Gew&auml;hr &uuml;bernehmen. F&uuml;r die Inhalte der verlinkten Seiten ist stets der jeweilige Anbieter oder Betreiber der Seiten verantwortlich. Die verlinkten Seiten wurden zum Zeitpunkt der Verlinkung auf m&ouml;gliche Rechtsverst&ouml;&szlig;e &uuml;berpr&uuml;ft. Rechtswidrige Inhalte waren zum Zeitpunkt der Verlinkung nicht erkennbar.\
+Eine permanente inhaltliche Kontrolle der verlinkten Seiten ist jedoch ohne konkrete Anhaltspunkte einer Rechtsverletzung nicht zumutbar. Bei Bekanntwerden von Rechtsverletzungen werden wir derartige Links umgehend entfernen.
+
+### Urheberrecht
+Die durch die Seitenbetreiber erstellten Inhalte und Werke auf diesen Seiten unterliegen dem deutschen Urheberrecht. Die Vervielf&auml;ltigung, Bearbeitung, Verbreitung und jede Art der Verwertung au&szlig;erhalb der Grenzen des Urheberrechtes bed&uuml;rfen der schriftlichen Zustimmung des jeweiligen Autors bzw. Erstellers. Downloads und Kopien dieser Seite sind nur f&uuml;r den privaten, nicht kommerziellen Gebrauch gestattet.\
+Soweit die Inhalte auf dieser Seite nicht vom Betreiber erstellt wurden, werden die Urheberrechte Dritter beachtet. Insbesondere werden Inhalte Dritter als solche gekennzeichnet. Sollten Sie trotzdem auf eine Urheberrechtsverletzung aufmerksam werden, bitten wir um einen entsprechenden Hinweis. Bei Bekanntwerden von Rechtsverletzungen werden wir derartige Inhalte umgehend entfernen.
+
+<br />
+Quelle: [e-recht24.de](https://www.e-recht24.de)

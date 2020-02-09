@@ -4,3 +4,6 @@ title = "Nacht der Wissenschaft Siegen"
 disableKinds = ["taxonomy", "taxonomyTerm"]
 relativeURLs = true
 enableInlineShortcodes = true
+
+[markup.goldmark.renderer]
+unsafe= true
