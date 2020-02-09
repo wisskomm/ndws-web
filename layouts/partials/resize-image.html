@@ -3,12 +3,11 @@
 {{ with $page }}
     {{ $resources := .Resources.ByType "image"}}
     {{ range $resources }}
-    {{ with . }}
-        1-{{ $.imgPath }}-1
-        2-{{ .RelPermalink }}-2
-        {{ if eq $.imgPath .RelPermalink }}
-            <img src='{{ (.Resize "500x").RelPermalink }}' />
+        {{ with . }}
+            {{ $abs := (string (absURL $.imgPath)) }}
+            {{ if eq $abs .Permalink }}
+                <img src='{{ (.Resize "500x").RelPermalink }}' />
+            {{ end }}
         {{ end }}
-    {{ end }}
     {{ end }}
 {{ end }}
