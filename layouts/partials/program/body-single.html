@@ -16,17 +16,20 @@
         {{ $styleAttrib := (replaceRE "^" "style='order:" $styleAttrib) }}
         {{ $styleAttrib := (replaceRE "$" ";'" $styleAttrib) }}
         <article class="card" {{ $styleAttrib | safeHTMLAttr }}>
-          
-          <div class="text-center">
-            {{.Params.Time}}
+          <div class="card-header">
             <h3>{{.Params.Name}}</h3>
-            ({{.Params.Origin}})
-            <div>
-              {{ partial "resize-image.html" (dict "imgPath" .Params.Image "ctx" $) }}
-            </div>
+              ({{.Params.Origin}})
           </div>
-          <strong>{{.Title}}</strong>
-          {{.Content}}
+          <div class="card-body">
+            <div class="text-center">
+              {{.Params.Time}}
+              <div>
+                {{ partial "resize-image.html" (dict "imgPath" .Params.Image "ctx" $) }}
+              </div>
+            </div>
+            <strong>{{.Title}}</strong>
+            {{.Content}}
+          </div>
         </article>
       {{ end }}
     {{ end }}

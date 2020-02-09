@@ -6066,19 +6066,43 @@ footer .column {
   display: flex;
   flex-wrap: wrap;
 }
+.cards h1,
+.cards h2,
+.cards h3 {
+  margin: 0;
+}
 .cards .card {
   -webkit-box-flex: 1;
   flex: 1 0 400px;
   box-sizing: border-box;
   margin: 1rem 0.25em;
-  border: 1px solid #dfdfdf;
-  padding: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem;
+}
+.cards .card .card-header {
+  background-color: red;
+  padding: 0.75rem 1.25rem;
+  background-color: rgba(0, 0, 0, 0.03);
+  border: 0px solid rgba(0, 0, 0, 0.125);
+  border-bottom-width: 1px;
+}
+@media screen and (max-width: 576px) {
+  .cards .card .card-header {
+    border-width: 1px;
+  }
+}
+.cards .card .card-body {
+  padding: 0.75rem 1.25rem;
+}
+@media screen and (max-width: 576px) {
+  .cards .card .card-body {
+    padding: 0;
+  }
 }
 @media screen and (max-width: 576px) {
   .cards .card {
     -webkit-box-flex: 1;
     flex: 1 0 280px;
-    padding: 0;
     border-width: 0;
     padding-bottom: 15px;
     border-bottom-width: 1px;
