@@ -5,6 +5,8 @@
     {{ range $resources }}
         {{ with . }}
             {{ $abs := (string (absURL $.imgPath)) }}
+            1-{{ $abs }}
+            2-{{ .Permalink }}
             {{ if eq $abs .Permalink }}
                 <img src='{{ (.Resize "500x").RelPermalink }}' />
             {{ end }}

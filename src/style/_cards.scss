@@ -13,6 +13,11 @@
         border: 1px solid rgba(0,0,0,.125);
         border-radius: .25rem;
 
+        > a {
+            color: unset;
+            text-decoration: none;
+        }
+
         .card-header {
             background-color: red;
             padding: .75rem 1.25rem;
