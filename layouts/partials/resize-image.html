@@ -1,4 +1,6 @@
-{{ with .page }}
+{{ $page := (.ctx.Site.GetPage "content" "media") }}
+
+{{ with $page }}
     {{ $resources := .Resources.ByType "image"}}
     {{ range $resources }}
     {{ with . }}

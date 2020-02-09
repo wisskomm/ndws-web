@@ -22,7 +22,7 @@
             <h3>{{.Params.Name}}</h3>
             ({{.Params.Origin}})
             <div>
-              {{ partial "resize-image.html" (dict "imgPath" .Params.Image "page" (.Site.GetPage "section" "/media")) }}
+              {{ partial "resize-image.html" (dict "imgPath" .Params.Image "ctx" $) }}
             </div>
           </div>
           <strong>{{.Title}}</strong>
