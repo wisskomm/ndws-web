@@ -11,7 +11,7 @@
             <!-- {{ .Permalink }} -->
 
             {{ if eq $abs .Permalink }}
-                <img src='{{ (.Resize "500x").RelPermalink }}' />
+                <img src='{{ (.Resize "500x").Permalink }}' />
             {{ end }}
         {{ end }}
     {{ end }}

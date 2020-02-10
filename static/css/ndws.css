@@ -6032,7 +6032,7 @@ footer {
   background-color: #fff;
   border-top: 1px solid #d8d8d8;
   bottom: 0;
-  color: #8a8a8a;
+  color: #898f9c;
   position: absolute;
   -webkit-box-align: start;
   align-items: flex-start;
@@ -6044,15 +6044,21 @@ footer {
   -webkit-box-direction: normal;
   flex-direction: row;
   flex-wrap: wrap;
-  padding: 10px 5px;
+  padding: 20px 50px;
   margin-top: 60px;
   min-height: 250px;
+  font-size: 0.85rem;
+}
+footer a {
+  color: #898f9c;
+}
+footer img {
+  display: inline-block;
+  margin: 0px 10px;
 }
 footer .column {
   margin: 0 10px;
   border: 0px solid red;
-  display: -webkit-box;
-  display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   flex-direction: column;

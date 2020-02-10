@@ -2,7 +2,7 @@ footer {
     background-color: #fff;
     border-top: 1px solid #d8d8d8;
     bottom: 0;
-    color: #8a8a8a;
+    color: #898f9c;
     position: absolute;
     align-items: flex-start;
     width: 100%;
@@ -10,14 +10,23 @@ footer {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    padding: 10px 5px;
+    padding: 20px 50px;
     margin-top: 60px;
     min-height: 250px;
+    font-size: .85rem;
+
+    a {
+      color: #898f9c;
+    }
   
+    img {
+      display: inline-block;
+      margin: 0px 10px;
+    }
+
     .column {
       margin: 0 10px;
       border: 0px solid red;
-      display: flex;
       flex-direction: column;
       flex-basis: 100%;
       flex: 1;
