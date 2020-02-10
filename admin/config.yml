@@ -1,3 +1,5 @@
+local_backend: true
+
 backend:
   name: github
   repo: TroogS/ndws-web
@@ -8,7 +10,6 @@ media_folder: "content/media/" # Media files will be stored in the repo under im
 public_folder: "/media/" # The src attribute for uploaded media will begin with /images/uploads
 logo_url: ../img/head.svg
 collections:
-
   - name: "single" # Used in routes, e.g., /admin/collections/blog
     label: "Single Page" # Used in the UI
     folder: "content" # The path to the folder where the documents are stored
@@ -46,4 +47,17 @@ collections:
       - { label: "Zeit", name: "time", widget: "string", hint: "Die Zeit wird für die Sortierung in der Programmübersicht verwendet" }
       - { label: "Image", name: "image", widget: "image", required: false }
       - { label: "Body", name: "body", widget: "markdown" }
+  - name: settings
+    label: Einstellungen
+    files:
+    - file: data/mainmenu.yml
+      label: Hauptmenue
+      name: mainmenu
+      fields:
+      - label: Hauptmenue Punkte
+        name: items
+        widget: list
+        fields:
+        - {label: Text, name: text, widget: string}
+        - {label: Pfad, name: path, widget: string}
       
