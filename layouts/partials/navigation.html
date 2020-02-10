@@ -5,8 +5,9 @@
           <img src='{{ "img/head.svg" | absURL }}' width="50" height="50" />
         </a>
         <ul class="nav-links">
-          <a href='{{ "program" | absURL }}'><li>Programm</li></a>
-          <a href="#"><li>Impressionen</li></a>
+          {{ range $.Site.Data.mainmenu.items }}
+            <a href='{{ .path | absURL }}'><li>{{ .text }}</li></a>
+          {{ end }}
         </ul>
       </div>
       <div class="nav-right">
