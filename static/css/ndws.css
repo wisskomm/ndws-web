@@ -6034,37 +6034,49 @@ footer {
   bottom: 0;
   color: #898f9c;
   position: absolute;
-  -webkit-box-align: start;
-  align-items: flex-start;
   width: 100%;
   z-index: 10;
   display: -webkit-box;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-  flex-direction: row;
   flex-wrap: wrap;
-  padding: 20px 50px;
+  padding: 0;
   margin-top: 60px;
   min-height: 250px;
   font-size: 0.85rem;
 }
-footer a {
-  color: #898f9c;
+footer .footer-row {
+  display: -webkit-box;
+  display: flex;
+  width: 100%;
+  max-width: 1440px;
+  padding: 50px 120px;
+  margin: auto;
 }
-footer img {
-  display: inline-block;
-  margin: 0px 10px;
+@media screen and (max-width: 992px) {
+  footer .footer-row {
+    padding: 50px;
+  }
 }
-footer .column {
+@media screen and (max-width: 768px) {
+  footer .footer-row {
+    padding: 20px;
+  }
+}
+footer .footer-row .column {
   margin: 0 10px;
-  border: 0px solid red;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   flex-direction: column;
   flex-basis: 100%;
   -webkit-box-flex: 1;
   flex: 1;
+}
+footer .footer-row a {
+  color: #898f9c;
+}
+footer .footer-row img {
+  display: inline-block;
+  margin: 0px 10px;
 }
 
 .cards {
