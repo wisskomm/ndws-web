@@ -6,7 +6,15 @@
         </a>
         <ul class="nav-links">
           {{ range $.Site.Data.mainmenu.items }}
-            <a href='{{ .path | absURL }}'><li>{{ .text }}</li></a>
+            <a href='{{ .path | absURL }}'>
+              {{ $active := (eq ($.Site.GetPage .path) $.Page) }}
+              {{ $active = or $active (and (eq (($.Site.GetPage .path).Section) $.Section) (not (eq $.Section "")))}}
+              {{ if $active }}
+                <li class="active">{{ .text }}</li>
+              {{ else }}
+                <li>{{ .text }}</li>
+              {{ end }}
+            </a>
           {{ end }}
         </ul>
       </div>

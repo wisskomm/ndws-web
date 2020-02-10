@@ -3,3 +3,5 @@ items:
     text: Programm
   - path: '#'
     text: Impressionen
+  - path: contact
+    text: Kontakt
