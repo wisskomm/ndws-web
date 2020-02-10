@@ -3,7 +3,7 @@ local_backend: true
 backend:
   name: github
   repo: TroogS/ndws-web
-  base_url: https://troogs.herokuapp.com/
+  base_url: https://troogs.herokuapp.com
 
 
 locale: 'de'
