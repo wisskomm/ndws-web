@@ -5992,7 +5992,7 @@ select {
   border-bottom: 1px solid transparent;
 }
 .nav nav .nav-links a li:hover,
-.nav nav .nav-links a li .active {
+.nav nav .nav-links a li.active {
   border-color: inherit;
   padding: 5px 0px;
 }
