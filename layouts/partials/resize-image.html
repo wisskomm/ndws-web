@@ -6,6 +6,10 @@
             {{ $abs := (replaceRE "$" $.imgPath $.ctx.Site.BaseURL) }}
             {{ $abs := (replaceRE "://" ":///" $abs) }}
             {{ $abs := (replaceRE "//" "/" $abs) }}
+
+            <!-- {{ $abs }} -->
+            <!-- {{ .Permalink }} -->
+
             {{ if eq $abs .Permalink }}
                 <img src='{{ (.Resize "500x").RelPermalink }}' />
             {{ end }}
