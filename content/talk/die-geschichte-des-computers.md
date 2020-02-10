@@ -2,7 +2,7 @@
 relatedProgram: Programm 2018
 title: Die Geschichte des Computers
 name: Prof. Dr. Horst Zuse
-origin: x
+origin: 
 time: '22:30 Uhr'
 image: /media/HorstZuse.jpg
 ---
