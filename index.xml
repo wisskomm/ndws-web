@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Home on Nacht der Wissenschaft Siegen</title>
-    <link>https://wisskomm.github.io/ndws-web/</link>
+    <link>http://ndws.beging.de/</link>
     <description>Recent content in Home on Nacht der Wissenschaft Siegen</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>de-DE</language>
     <lastBuildDate>Wed, 09 Apr 2014 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://wisskomm.github.io/ndws-web/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://ndws.beging.de/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Kontakt &amp; Anfahrt</title>
-      <link>https://wisskomm.github.io/ndws-web/contact/</link>
+      <link>http://ndws.beging.de/contact/</link>
       <pubDate>Wed, 09 Apr 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://wisskomm.github.io/ndws-web/contact/</guid>
+      <guid>http://ndws.beging.de/contact/</guid>
       <description>Martinikirche
 Grabenstraße 22
 57072 Siegen</description>
@@ -24,10 +24,10 @@ Grabenstraße 22
     
     <item>
       <title>Datenschutzerklärung</title>
-      <link>https://wisskomm.github.io/ndws-web/privacy/</link>
+      <link>http://ndws.beging.de/privacy/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://wisskomm.github.io/ndws-web/privacy/</guid>
+      <guid>http://ndws.beging.de/privacy/</guid>
       <description>Datenschutzerklärung 1. Datenschutz auf einen Blick Allgemeine Hinweise Die folgenden Hinweise geben einen einfachen Überblick darüber, was mit Ihren personenbezogenen Daten passiert, wenn Sie diese Website besuchen. Personenbezogene Daten sind alle Daten, mit denen Sie persönlich identifiziert werden können. Ausführliche Informationen zum Thema Datenschutz entnehmen Sie unserer unter diesem Text aufgeführten Datenschutzerklärung.
 Datenerfassung auf dieser Website 
 Wer ist verantwortlich für die Datenerfassung auf dieser Website?
@@ -36,84 +36,84 @@ Die Datenverarbeitung auf dieser Website erfolgt durch den Websitebetreiber.</de
     
     <item>
       <title>Die Geschichte des Computers</title>
-      <link>https://wisskomm.github.io/ndws-web/talk/die-geschichte-des-computers/</link>
+      <link>http://ndws.beging.de/talk/die-geschichte-des-computers/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://wisskomm.github.io/ndws-web/talk/die-geschichte-des-computers/</guid>
+      <guid>http://ndws.beging.de/talk/die-geschichte-des-computers/</guid>
       <description>Dr.-Ing. Horst Zuse wurde 1945 geboren und studierte von 1967 bis 1973 Elektrotechnik an der Technischen Universität Berlin (TUB). Im Jahr 1985 promovierte er auf dem Gebiet der Softwarekomplexitätsmaße und es folgte 1987 ein einjähriger Forschungsaufenthalt am IBM Thomas J. Watson Research Center in Yorktown Heights / New York in den USA. 1991 publizierte er das Buch: Horst Zuse: Software Complexity - Measures and Methods, im DeGruyter Verlag und 1998 erschien das Buch: Horst Zuse: A Framework of Software Measurement, DeGruyter Verlag.</description>
     </item>
     
     <item>
       <title>Die Welt des eSports - Implikationen für eine digitalisierte Arbeitswelt</title>
-      <link>https://wisskomm.github.io/ndws-web/talk/die-welt-des-esports-implikationen-f%C3%BCr-eine-digitalisierte-arbeitswelt/</link>
+      <link>http://ndws.beging.de/talk/die-welt-des-esports-implikationen-f%C3%BCr-eine-digitalisierte-arbeitswelt/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://wisskomm.github.io/ndws-web/talk/die-welt-des-esports-implikationen-f%C3%BCr-eine-digitalisierte-arbeitswelt/</guid>
+      <guid>http://ndws.beging.de/talk/die-welt-des-esports-implikationen-f%C3%BCr-eine-digitalisierte-arbeitswelt/</guid>
       <description>Der eSport oder das kompetitive Spielen ist ein Phänomen, das in den letzten Jahren exponentiell angewachsen ist. Immer mehr Vereine, wie z.B. FC Schalke 04, investieren in eSports und Unternehmen wie Wüstenrot agieren als Sponsoren. Dies geschieht vor allem deshalb, weil mit eSports eine junge Zielgruppe erreicht wird, die sonst nur schwer zu erreichen ist. Die eSports sind aber auch für das Personalmanagement interessant, denn es handelt sich um ein Phänomen, das die Digitalisierung, Globalisierung und die Agilität in seiner DNA hat.</description>
     </item>
     
     <item>
       <title>Extraterrestrisches Leben – Wo lohnt sich die Suche?</title>
-      <link>https://wisskomm.github.io/ndws-web/talk/extraterrestrisches-leben-wo-lohnt-sich-die-suche/</link>
+      <link>http://ndws.beging.de/talk/extraterrestrisches-leben-wo-lohnt-sich-die-suche/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://wisskomm.github.io/ndws-web/talk/extraterrestrisches-leben-wo-lohnt-sich-die-suche/</guid>
+      <guid>http://ndws.beging.de/talk/extraterrestrisches-leben-wo-lohnt-sich-die-suche/</guid>
       <description>Seit der Entdeckung der ersten Exoplaneten in den 1990er Jahren wurde eine große Anzahl von Planeten in anderen Sternensystemen identifiziert – mittlerweile etwa 4000 an der Zahl. Anders als zuvor gedacht sind Planetensysteme also nichts ungewöhnliches, vielmehr besitzen die meisten Sterne eines. Damit stellt sich immer stärker die Frage, ob die Erde der einzige Planet ist, auf dem Leben möglich wäre. Doch wo wäre eine Suche – sollten die technischen Möglichkeiten eines Tages so weit sein – am erfolgversprechendsten?</description>
     </item>
     
     <item>
       <title>Freiheit statt Stillsitzen?! – Über den Alltag an Demokratischen Schulen</title>
-      <link>https://wisskomm.github.io/ndws-web/talk/freiheit-statt-stillsitzen-%C3%BCber-den-alltag-an-demokratischen-schulen/</link>
+      <link>http://ndws.beging.de/talk/freiheit-statt-stillsitzen-%C3%BCber-den-alltag-an-demokratischen-schulen/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://wisskomm.github.io/ndws-web/talk/freiheit-statt-stillsitzen-%C3%BCber-den-alltag-an-demokratischen-schulen/</guid>
+      <guid>http://ndws.beging.de/talk/freiheit-statt-stillsitzen-%C3%BCber-den-alltag-an-demokratischen-schulen/</guid>
       <description>Die Menschenrechtscharta und das Grundgesetz geben Eltern eine große Entscheidungsfreiheit über die Erziehung und Bildung ihrer Kinder. Sie können, wenn sie wollen, auch selbst eine Schule gründen: „Das Recht zur Errichtung von privaten Schulen wird gewährleistet.“ (Art. 7(4) GG). Immer häufiger gründen Eltern Schulen, die sie Demokratische Schulen nennen und in denen der Wunsch nach einer alternativen Pädagogik zum Ausdruck kommt. Mit ihrer Selbstbezeichnung „Demokratisch“ möchten die Akteure u.a. die Freiheit und Gleichheit von Erwachsenen und Kindern/Jugendlichen betonen.</description>
     </item>
     
     <item>
       <title>Gegen stochastische Methoden haben Betrüger (fast) keine Chance</title>
-      <link>https://wisskomm.github.io/ndws-web/talk/doktortest-copy-6/</link>
+      <link>http://ndws.beging.de/talk/doktortest-copy-6/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://wisskomm.github.io/ndws-web/talk/doktortest-copy-6/</guid>
+      <guid>http://ndws.beging.de/talk/doktortest-copy-6/</guid>
       <description>Ein Student hat keine Lust auf eine Routinetätigkeit und „mogelt“ sich durch. Ein Steuerzahler erfindet einige Rechnungen, für die keine Leistungen erbracht wurden. Es gibt viele Arten von Betrug und häufig wird der Betrüger ungeschoren davon kommen. In meinem Vortrag werde ich aufzeigen wie die Stochastik helfen kann in den oben genannten Beispielen den „Täter“ zu überführen. Dabei greifen die Wahrscheinlichkeitstheorie (Modellbildung) und die mathematische Statistik auf exemplarische Weise ineinander. Im ersten Fall führt der sogenannte Run-Test zum Erfolg; im zweiten Fall hilft die Benford-Verteilung.</description>
     </item>
     
     <item>
       <title>Gegen stochastische Methoden haben Betrüger (fast) keine Chance</title>
-      <link>https://wisskomm.github.io/ndws-web/talk/gegen-stochastische-methoden-haben-betr%C3%BCger-fast-keine-chance/</link>
+      <link>http://ndws.beging.de/talk/gegen-stochastische-methoden-haben-betr%C3%BCger-fast-keine-chance/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://wisskomm.github.io/ndws-web/talk/gegen-stochastische-methoden-haben-betr%C3%BCger-fast-keine-chance/</guid>
+      <guid>http://ndws.beging.de/talk/gegen-stochastische-methoden-haben-betr%C3%BCger-fast-keine-chance/</guid>
       <description>Ein Student hat keine Lust auf eine Routinetätigkeit und „mogelt“ sich durch. Ein Steuerzahler erfindet einige Rechnungen, für die keine Leistungen erbracht wurden. Es gibt viele Arten von Betrug und häufig wird der Betrüger ungeschoren davon kommen. In meinem Vortrag werde ich aufzeigen wie die Stochastik helfen kann in den oben genannten Beispielen den „Täter“ zu überführen. Dabei greifen die Wahrscheinlichkeitstheorie (Modellbildung) und die mathematische Statistik auf exemplarische Weise ineinander. Im ersten Fall führt der sogenannte Run-Test zum Erfolg; im zweiten Fall hilft die Benford-Verteilung.</description>
     </item>
     
     <item>
       <title>Gesundheit durch Radioaktivität: Wie Grundlagenforschung die Krebstherapie revolutionieren könnte</title>
-      <link>https://wisskomm.github.io/ndws-web/talk/gesundheit-durch-radioaktivit%C3%A4t-wie-grundlagenforschung-die-krebstherapie-revolutionieren-k%C3%B6nnte/</link>
+      <link>http://ndws.beging.de/talk/gesundheit-durch-radioaktivit%C3%A4t-wie-grundlagenforschung-die-krebstherapie-revolutionieren-k%C3%B6nnte/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://wisskomm.github.io/ndws-web/talk/gesundheit-durch-radioaktivit%C3%A4t-wie-grundlagenforschung-die-krebstherapie-revolutionieren-k%C3%B6nnte/</guid>
+      <guid>http://ndws.beging.de/talk/gesundheit-durch-radioaktivit%C3%A4t-wie-grundlagenforschung-die-krebstherapie-revolutionieren-k%C3%B6nnte/</guid>
       <description>Steve Jobs starb an Krebs. Im Rahmen der Behandlung seines Krebses wurde sein gesamtes Genom entschlüsselt. Dies ist Teil eines Ansatzes, den man personalisierte Medizin nennt. Personalisierte Medizin wird auf jeden Patienten und die entsprechende Erkrankung (in diesem Fall auf den spezifischen Krebs) angepasst, sodass die verabreichte Medizin eine ideale Wirkgrundlage hat und die Wahrscheinlichkeit zur Heilung maximiert wird.
 Auf Grund der benötigten genetischen Sequenzierung ist dieses Verfahren sehr teuer und wird im Regelfall nicht durchgeführt.</description>
     </item>
     
     <item>
       <title>Graphen, das dünnste Material der Welt</title>
-      <link>https://wisskomm.github.io/ndws-web/talk/graphen-das-d%C3%BCnnste-material-der-welt/</link>
+      <link>http://ndws.beging.de/talk/graphen-das-d%C3%BCnnste-material-der-welt/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://wisskomm.github.io/ndws-web/talk/graphen-das-d%C3%BCnnste-material-der-welt/</guid>
+      <guid>http://ndws.beging.de/talk/graphen-das-d%C3%BCnnste-material-der-welt/</guid>
       <description>2010 erhielten Geim und Novoselov den Physik-Nobelpreis für ihre Forschung an Graphen, eine nur ein Atom dicke Schicht aus Kohlenstoffatomen. Spätestens seit diesem Zeitpunkt ist die Forschung an ultradünnen, graphenartigen Materialien ein sehr stark wachsendes Gebiet der Festkörperphysik, nicht zuletzt aufgrund des hohen Anwendungspotenzials für Displays oder integrierte Schaltkreise.
 In diesem Vortrag wird beschrieben, wie solche ultradünnen Schichten überhaupt hergestellt werden können und welche grundlegende physikalische Effekte auftreten, wenn ein Material nur noch wenige Atome dick ist.</description>
     </item>
     
     <item>
       <title>Grundlagenforschung und Gesellschaft am Beispiel des Europäischen Forschungszentrums für Teilchenphysik CERN</title>
-      <link>https://wisskomm.github.io/ndws-web/talk/grundlagenforschung-und-gesellschaft-am-beispiel-des-europ%C3%A4ischen-forschungszentrums-f%C3%BCr-teilchenphysik-cern/</link>
+      <link>http://ndws.beging.de/talk/grundlagenforschung-und-gesellschaft-am-beispiel-des-europ%C3%A4ischen-forschungszentrums-f%C3%BCr-teilchenphysik-cern/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://wisskomm.github.io/ndws-web/talk/grundlagenforschung-und-gesellschaft-am-beispiel-des-europ%C3%A4ischen-forschungszentrums-f%C3%BCr-teilchenphysik-cern/</guid>
+      <guid>http://ndws.beging.de/talk/grundlagenforschung-und-gesellschaft-am-beispiel-des-europ%C3%A4ischen-forschungszentrums-f%C3%BCr-teilchenphysik-cern/</guid>
       <description>Grundlagenforschung ist ein elementares Kulturgut des Menschen und befriedigt die menschliche Neugier und den Drang, etwas Neues, Unbekanntes hinter dem bekannten Horizont zu finden und die tieferen Zusammenhänge der Natur zu begreifen.
 Produkte der Grundlagenforschung sind Wissen und Erkenntnis. Auf dieser Wissensbasis baut die angewandte Forschung auf und ermöglicht uns technologische Fortschritte, ohne die unsere heutige Welt nicht mehr vorstellbar wäre.
 Ein einzigartiges Beispiel für das Zusammenspiel von Grundlagenforschung und Technologie ist das Europäische Forschungszentrum für Teilchenphysik CERN bei Genf.</description>
@@ -121,19 +121,19 @@ Ein einzigartiges Beispiel für das Zusammenspiel von Grundlagenforschung und Te
     
     <item>
       <title>Hochwasservorhersage am Rhein</title>
-      <link>https://wisskomm.github.io/ndws-web/talk/hochwasservorhersage-am-rhein/</link>
+      <link>http://ndws.beging.de/talk/hochwasservorhersage-am-rhein/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://wisskomm.github.io/ndws-web/talk/hochwasservorhersage-am-rhein/</guid>
+      <guid>http://ndws.beging.de/talk/hochwasservorhersage-am-rhein/</guid>
       <description>Als längster Strom Deutschlands und wichtigste Binnenwasserstraße stellt der Rhein, zusammen mit seinen wichtigsten Nebenflüssen, auch eine Gefahrenquelle für Gebiete entlang des Flusslaufes dar. Aus diesem Grund wird in einem internationalen Verbund der Länder Schweiz, Deutschland und Niederlande ein Hochwasserfrühwarnsystem bei der Bundesanstalt für Gewässerkunde in Koblenz betrieben, mit dessen Hilfe Hochwasserereignisse mit einigen Tagen Vorwarnzeit prognostiziert, und entsprechende Schutzmaßnahmen für Bevölkerung und Städte ergriffen werden können. Besonders angesichts prognostizierter Veränderungen des Abflussverhaltens der Flüsse im Zusammenhang mit dem des Klimawandel gewinnt die Abflussprognose zunehmende Bedeutung.</description>
     </item>
     
     <item>
       <title>Impressum</title>
-      <link>https://wisskomm.github.io/ndws-web/legal/</link>
+      <link>http://ndws.beging.de/legal/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://wisskomm.github.io/ndws-web/legal/</guid>
+      <guid>http://ndws.beging.de/legal/</guid>
       <description>Impressum Angaben gemäß § 5 TMG  Studentische Initiative f&amp;uuml;r Wissenschaftskommunikation
 H&amp;ouml;lderlinstra&amp;szlig;e 35
 57076 Siegen 
@@ -155,65 +155,65 @@ Haftung für Inhalte Als Diensteanbieter sind wir gemäß § 7 Abs.</description
     
     <item>
       <title>Programm 2017</title>
-      <link>https://wisskomm.github.io/ndws-web/program/programm-2017/</link>
+      <link>http://ndws.beging.de/program/programm-2017/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://wisskomm.github.io/ndws-web/program/programm-2017/</guid>
+      <guid>http://ndws.beging.de/program/programm-2017/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Programm 2018</title>
-      <link>https://wisskomm.github.io/ndws-web/program/2018/</link>
+      <link>http://ndws.beging.de/program/2018/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://wisskomm.github.io/ndws-web/program/2018/</guid>
+      <guid>http://ndws.beging.de/program/2018/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Programm 2019</title>
-      <link>https://wisskomm.github.io/ndws-web/program/2019/</link>
+      <link>http://ndws.beging.de/program/2019/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://wisskomm.github.io/ndws-web/program/2019/</guid>
+      <guid>http://ndws.beging.de/program/2019/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Programm 2020</title>
-      <link>https://wisskomm.github.io/ndws-web/program/2020/</link>
+      <link>http://ndws.beging.de/program/2020/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://wisskomm.github.io/ndws-web/program/2020/</guid>
+      <guid>http://ndws.beging.de/program/2020/</guid>
       <description>Einlass ab 18 Uhr (Zeiten können sich leicht verschieben)</description>
     </item>
     
     <item>
       <title>RNA: eine unbekannte Welt</title>
-      <link>https://wisskomm.github.io/ndws-web/talk/rna-eine-unbekannte-welt/</link>
+      <link>http://ndws.beging.de/talk/rna-eine-unbekannte-welt/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://wisskomm.github.io/ndws-web/talk/rna-eine-unbekannte-welt/</guid>
+      <guid>http://ndws.beging.de/talk/rna-eine-unbekannte-welt/</guid>
       <description>Die Abkürzung &amp;ldquo;DNA&amp;rdquo; ist weitestgehend bekannt. Viele Menschen wissen, dass die DNA wie eine Doppelhelix aussieht und unsere genetische Information codiert. Wenn ich jedoch erwähne, dass ich mit RNA arbeite, werden mir häufig die folgenden Fragen gestellt: RNA? Was ist das? Was ist der Unterschied zwischen DNA und RNA? Warum brauchen wir das? Warum ist es wichtig? In meinem Vortrag werde ich diese Fragen beantworten und viele andere interessante Dinge über RNA erzählen.</description>
     </item>
     
     <item>
       <title>To be open(ed): Die Bib ist kein Elfenbeinturm</title>
-      <link>https://wisskomm.github.io/ndws-web/talk/to-be-open-ed-die-bib-ist-kein-elfenbeinturm/</link>
+      <link>http://ndws.beging.de/talk/to-be-open-ed-die-bib-ist-kein-elfenbeinturm/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://wisskomm.github.io/ndws-web/talk/to-be-open-ed-die-bib-ist-kein-elfenbeinturm/</guid>
+      <guid>http://ndws.beging.de/talk/to-be-open-ed-die-bib-ist-kein-elfenbeinturm/</guid>
       <description>Wissenschaftliche Bibliotheken gelten gemeinhin als Ort für Professorinnen und Professoren, Studentinnnen und Studenten. Also als Teil des Elfenbeinturmes &amp;ldquo;Universität&amp;rdquo;. Das ist aber weit gefehlt. Die Universitätsbibliothek Siegen versteht sich als offenes Haus, in dem es neben gedruckten Büchern auch allerhand Neues, Aktuelles und Digitales zu entdecken gibt. Dabei steht unsere Tür nicht nur Hochschulangehörigen offen, sondern auch den Bürgerinnen und Bürgern aus Stadt und Region.
 Das Engagement von Bibliotheken im Hinblick auf &amp;ldquo;Offenheit&amp;rdquo; geht aber seit einigen Jahren weiter und auch in eine ganz bestimmte Richtung - den sogenannten Open Access.</description>
     </item>
     
     <item>
       <title>Vollgas im Studium mit S3 Racing</title>
-      <link>https://wisskomm.github.io/ndws-web/talk/vollgas-im-studium-mit-s3-racing/</link>
+      <link>http://ndws.beging.de/talk/vollgas-im-studium-mit-s3-racing/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://wisskomm.github.io/ndws-web/talk/vollgas-im-studium-mit-s3-racing/</guid>
+      <guid>http://ndws.beging.de/talk/vollgas-im-studium-mit-s3-racing/</guid>
       <description>Wir sind das Formula Student Team aus Siegen. Junge, ambitionierte Studenten, die hungrig nach Erfolg und Erlebnis sind, die über den Tellerrand des Studiums hinausblicken. „Young Professionals“, die die Chance ergreifen, praktische Erfahrungen zu sammeln und den ersten Fuß in die Tür zum Berufsleben stellen. Gemeinsam konstruieren, fertigen, fahren und vermarkten wir einen Formel-Rennwagen auf den verschiedensten Events in der Welt. Wir möchten Sie einladen einen Blick in die Welt der Formula Student und auf unser diesjähriges Rennfahrzeug zu werfen.</description>
     </item>
     
