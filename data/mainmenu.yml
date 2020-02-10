@@ -1,5 +1,5 @@
 items:
-  - path: '#'
-    text: Impressionen
   - path: program
     text: Programm
+  - path: '#'
+    text: Impressionen
