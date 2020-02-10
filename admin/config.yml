@@ -3,9 +3,9 @@ local_backend: true
 backend:
   name: github
   repo: TroogS/ndws-web
-  open_authoring: true
+  base_url: https://troogs.herokuapp.com/
 
-publish_mode: editorial_workflow
+
 locale: 'de'
 media_folder: "content/media/" # Media files will be stored in the repo under images/uploads
 public_folder: "/media/" # The src attribute for uploaded media will begin with /images/uploads
