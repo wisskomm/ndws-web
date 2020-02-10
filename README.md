@@ -1,8 +1,8 @@
 # ndws-web
 
-Live: https://troogs.github.io/ndws-web/
+Live: https://wisskomm.github.io/ndws-web/
 
-![github pages](https://github.com/TroogS/ndws-web/workflows/github%20pages/badge.svg)
+![github pages](https://github.com/wisskomm/ndws-web/workflows/github%20pages/badge.svg)
 
 ## Requirements:
 - node.js - [Download](https://nodejs.org/en/)
