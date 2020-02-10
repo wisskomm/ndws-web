@@ -2,6 +2,7 @@ local_backend: true
 
 backend:
   name: github
+  branch: master
   repo: TroogS/ndws-web
   base_url: https://troogs.herokuapp.com
 
