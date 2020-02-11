@@ -1,7 +1,7 @@
 ---
 relatedProgram: Programm 2018
 title: Gegen stochastische Methoden haben Betrüger (fast) keine Chance
-visible: false
+visible: true
 name: Prof. Dr. Alexander Schnurr
 origin: Stochastik
 time: '18:30 Uhr'
