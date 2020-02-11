@@ -8,7 +8,7 @@ Live: [//ndws.beging.de](//ndws.beging.de)
 - node.js - [Download](https://nodejs.org/en/)
 - hugo - [Download](https://gohugo.io/)
 
-## Preparation:
+## Installation:
 - Create environment variable for hugo
 - `npm install`
 - `npm install -g gulp node-sass`
@@ -16,3 +16,4 @@ Live: [//ndws.beging.de](//ndws.beging.de)
 - `.github/workflows/main.yml`: Set base url in 
 - `static/admin/config.yml`: Set backend.repo
 - `static/admin/config.yml`: Set site_url
+- `static/CNAME`: Update URL
