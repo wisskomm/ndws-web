@@ -8,7 +8,7 @@
   <section class="cards">
   {{ range (readDir "content/talk") }}
     {{ with $.Site.GetPage .Name }}
-      {{ if and (.Params.Name) (eq .Params.relatedProgram $.Title ) }}
+      {{ if and (.Params.Name) (eq .Params.relatedProgram $.Title) (eq .Params.visible true) }}
         {{ $styleAttrib := (replaceRE "[^\\d]" "" .Params.Time) }}
         {{ $styleAttrib := (replaceRE "^0{3}" "1111" $styleAttrib) }}
         {{ $styleAttrib := (replaceRE "^0{2}" "111" $styleAttrib) }}
