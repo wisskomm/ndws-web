@@ -11,6 +11,7 @@ locale: 'de'
 media_folder: "content/media/" # Media files will be stored in the repo under images/uploads
 public_folder: "/media/" # The src attribute for uploaded media will begin with /images/uploads
 logo_url: ../img/head.svg
+site_url: https://ndws.beging.de/
 collections:
   - name: "single" # Used in routes, e.g., /admin/collections/blog
     label: "Single Page" # Used in the UI
@@ -33,6 +34,7 @@ collections:
     label: "Vortrag"
     folder: "content/talk"
     summary: "[{{relatedProgram}}] {{title}}"
+    preview_path: "talk/{{filename}}"
     create: true
     fields:
       - {
@@ -49,17 +51,18 @@ collections:
       - { label: "Zeit", name: "time", widget: "string", hint: "Die Zeit wird für die Sortierung in der Programmübersicht verwendet" }
       - { label: "Image", name: "image", widget: "image", required: false }
       - { label: "Body", name: "body", widget: "markdown" }
-  - name: settings
-    label: Einstellungen
+  - name: "settings"
+    label: "Einstellungen"
     files:
-    - file: data/mainmenu.yml
-      label: Hauptmenue
-      name: mainmenu
+    - file: "data/mainmenu.yml"
+      label: "Hauptmenü"
+      name: "mainmenu"
       fields:
-      - label: Hauptmenue Punkte
-        name: items
+      - label: "Hauptmenü Punkte"
+        name: "items"
         widget: list
         fields:
         - {label: Text, name: text, widget: string}
-        - {label: Pfad, name: path, widget: string}
+        - {label: Pfad, name: path, widget: string, default: "#"}
+        - {label: Sichtbar, name: visible, widget: boolean, default: true}
       
