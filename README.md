@@ -1,6 +1,6 @@
 # ndws-web
 
-Live: //ndws.beging.de
+Live: [//ndws.beging.de](//ndws.beging.de)
 
 ![github pages](https://github.com/wisskomm/ndws-web/workflows/github%20pages/badge.svg)
 
