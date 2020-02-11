@@ -1,7 +1,10 @@
 items:
   - path: program
     text: Programm
+    visible: true
   - path: '#'
     text: Impressionen
+    visible: true
   - path: contact
     text: Kontakt
+    visible: false

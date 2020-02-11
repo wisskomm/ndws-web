@@ -5,7 +5,7 @@
           <img src='{{ "img/head.svg" | absURL }}' width="50" height="50" />
         </a>
         <ul class="nav-links">
-          {{ range $.Site.Data.mainmenu.items }}
+          {{ range where $.Site.Data.mainmenu.items ".visible" true }}
             <a href='{{ .path | absURL }}'>
               {{ $active := (eq ($.Site.GetPage .path) $.Page) }}
               {{ $active = or $active (and (eq (($.Site.GetPage .path).Section) $.Section) (not (eq $.Section "")))}}
