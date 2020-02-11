@@ -48,6 +48,7 @@ collections:
           searchFields: ["title"],
         }
       - { label: "Titel", name: "title", widget: "string" }
+      - { label: "Sichtbar", name: "visible", widget: "boolean", default: true }
       - { label: "Vortragende Person", name: "name", widget: "string" }
       - { label: "Herkunft / Feld", name: "origin", widget: "string" }
       - { label: "Zeit", name: "time", widget: "string", hint: "Die Zeit wird für die Sortierung in der Programmübersicht verwendet" }
