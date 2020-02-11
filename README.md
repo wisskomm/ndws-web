@@ -12,6 +12,7 @@ Live: [//ndws.beging.de](//ndws.beging.de)
 - Create environment variable for hugo
 - `npm install`
 - `npm install -g gulp node-sass`
-- Set pages url in `README.md`
-- Set base url in `.github/workflows/main.yml`
-- Set repository name in CMS config `static/admin/config.yml`
+- `README.md`: Set pages url in 
+- `.github/workflows/main.yml`: Set base url in 
+- `static/admin/config.yml`: Set backend.repo
+- `static/admin/config.yml`: Set site_url

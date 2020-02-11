@@ -4,7 +4,9 @@ backend:
   name: github
   branch: master
   repo: wisskomm/ndws-web
-  base_url: https://troogs.herokuapp.com
+  
+  base_url: https://troogs.herokuapp.com # Custom Github Authentication provider
+  # https://github.com/vencax/netlify-cms-github-oauth-provider
 
 
 locale: 'de'
