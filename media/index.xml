@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Media Folder on Nacht der Wissenschaft Siegen</title>
-    <link>http://ndws.beging.de/media/</link>
+    <link>https://ndws.beging.de/media/</link>
     <description>Recent content in Media Folder on Nacht der Wissenschaft Siegen</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>de-DE</language>
     
-	<atom:link href="http://ndws.beging.de/media/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://ndws.beging.de/media/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>
