@@ -6079,6 +6079,14 @@ footer .footer-row img {
   margin: 0px 10px;
 }
 
+#sidebar {
+  display: none;
+  position: fixed;
+  border: 1px solid red;
+  height: calc(100vh - 80px);
+  width: 265px;
+}
+
 .cards {
   display: -webkit-box;
   display: flex;

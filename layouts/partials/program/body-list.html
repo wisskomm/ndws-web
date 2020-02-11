@@ -1,8 +1,8 @@
 <body>
   {{ partial "navigation.html" . }}
+  {{ partial "sidebar.html" . }}
   <div id="content">
     <h1>{{.Title}}</h1>
-     {{.Content}}
     <section class="cards">
       {{ range .Pages }}
         <article class="card">
