@@ -5982,6 +5982,11 @@ select {
   -webkit-box-align: center;
   align-items: center;
 }
+@media screen and (max-width: 576px) {
+  .nav nav .nav-links {
+    display: none;
+  }
+}
 .nav nav .nav-links a {
   display: inline-block;
   text-decoration: none;
@@ -6080,11 +6085,101 @@ footer .footer-row img {
 }
 
 #sidebar {
-  display: none;
   position: fixed;
-  border: 1px solid red;
+  right: 0;
+  top: 0;
+  background-color: #fff;
+  border-left: 0px solid #09003d;
   height: calc(100vh - 80px);
+  height: 100vh;
+  width: 0;
+  z-index: 2000;
+  -webkit-transition: width 0.4s;
+  transition: width 0.4s;
+  display: none;
+}
+#sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+#sidebar ul a {
+  color: #000;
+  text-decoration: none;
+  display: block;
+  padding-left: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+#sidebar ul a li {
+  padding-left: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-left: 2px solid transparent;
+}
+#sidebar ul a:hover li,
+#sidebar ul a.active li {
+  border-left-color: black;
+}
+@media screen and (max-width: 576px) {
+  #sidebar {
+    display: inherit;
+  }
+}
+
+div.hamburger {
+  height: 80px;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  flex-direction: column;
+  -webkit-box-align: end;
+  align-items: end;
+}
+div.hamburger > div {
+  padding: 25px;
+}
+div.hamburger > div:hover {
+  cursor: pointer;
+}
+div.hamburger span {
+  display: block;
+  width: 33px;
+  height: 4px;
+  margin-bottom: 5px;
+  position: relative;
+  background: #000;
+  border-radius: 3px;
+  -webkit-transition: -webkit-transform 0.2s;
+  transition: -webkit-transform 0.2s;
+  transition: transform 0.2s;
+  transition: transform 0.2s, -webkit-transform 0.2s;
+}
+
+body.sidebar #sidebar {
   width: 265px;
+  border-left-width: 4px;
+}
+
+body.sidebar div.hamburger span {
+  -webkit-transform-origin: center;
+  transform-origin: center;
+}
+
+body.sidebar div.hamburger span:nth-child(1) {
+  -webkit-transform: translateY(9px) rotate(45deg);
+  transform: translateY(9px) rotate(45deg);
+}
+
+body.sidebar div.hamburger span:nth-child(2) {
+  opacity: 0;
+}
+
+body.sidebar div.hamburger span:nth-child(3) {
+  -webkit-transform: translateY(-9px) rotate(-45deg);
+  transform: translateY(-9px) rotate(-45deg);
 }
 
 .cards {
