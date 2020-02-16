@@ -24,6 +24,10 @@
       display: flex;
       align-items: center;
 
+      @media screen and (max-width: $breakpoint-xs) {
+        display: none;
+      }
+
       a {
         display: inline-block;
         text-decoration: none;

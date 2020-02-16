@@ -6,3 +6,6 @@ if(document.body.classList.contains("hero")) {
   });
 }
 
+document.querySelector('[data-action="toggle-sidebar"]').addEventListener("click",() => {
+	document.body.classList.toggle("sidebar");
+});

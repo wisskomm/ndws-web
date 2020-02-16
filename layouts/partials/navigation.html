@@ -1,5 +1,5 @@
 <div class="nav">
-    <nav>
+    <nav role="navigation">
       <div class="nav-left">
         <a href='{{ "" | absURL }}' class="header-logo">
           <img src='{{ "img/head.svg" | absURL }}' width="50" height="50" />
@@ -25,3 +25,4 @@
       </div>
     </nav>
   </div>
+  {{ partial "sidebar.html" . }}

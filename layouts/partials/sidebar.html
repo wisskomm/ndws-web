@@ -1,3 +1,22 @@
 <div id="sidebar">
-    asd
+    <div class="hamburger">
+        <div data-action="toggle-sidebar">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </div>
+    <ul>
+        {{ range where $.Site.Data.mainmenu.items ".visible" true }}
+            {{ $active := (eq ($.Site.GetPage .path) $.Page) }}
+            {{ $active = or $active (and (eq (($.Site.GetPage .path).Section) $.Section) (not (eq $.Section "")))}}
+            {{ if $active }}
+                <a href='{{ .path | absURL }}' class="active">
+            {{ else }}
+                <a href='{{ .path | absURL }}'>
+            {{ end }}
+                <li>{{ .text }}</li>
+            </a>
+      {{ end }}
+    </ul>
 </div>
